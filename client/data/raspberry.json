@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1,
+        "name": "Dormitorio",
+        "ip": "192.168.0.103",
+        "sockets":[
+            {
+                "id": "1",
+                "name": "Brasero",
+                "state": "0",
+                "active": "0",
+                "rel": "1"
+            },
+            {
+                "id": "2",
+                "name": "Calefacción",
+                "state": "0",
+                "active": "0",
+                "rel": "2"
+            }
+        ],
+        "users":[
+            {
+                "id": "1",
+                "email": "tec4pablosaez@gmail.com",
+                "name": "Pablo"
+            },
+            {
+                "id": "2",
+                "email": "pablo@intelligenia.com",
+                "name": "Pablo"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Salon",
+        "ip": "192.168.0.110",
+        "sockets":[
+              {
+                  "id": "1",
+                  "name": "Brasero",
+                  "state": "0",
+                  "active": "0",
+                  "rel": "1"
+              },
+              {
+                  "id": "2",
+                  "name": "Calefacción",
+                  "state": "0",
+                  "active": "0",
+                  "rel": "2"
+              }
+          ],
+          "users":[
+              {
+                  "id": "1",
+                  "email": "tec4pablosaez@gmail.com",
+                  "name": "Pablo"
+              },
+              {
+                  "id": "2",
+                  "email": "pablo@intelligenia.com",
+                  "name": "Pablo"
+              }
+          ]
+    }
+]

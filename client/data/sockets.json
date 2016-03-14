@@ -1,0 +1,16 @@
+[
+    {
+        "id": "1",
+        "name": "Brasero",
+        "state": "0",
+        "active": "0",
+        "rel": "1"
+    },
+    {
+        "id": "2",
+        "name": "Calefacción",
+        "state": "0",
+        "active": "0",
+        "rel": "2"
+    }
+]
