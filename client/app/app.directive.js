@@ -255,10 +255,6 @@ altairApp
                         if( $rootScope.mainSearchActive && !$($event.target).closest('.header_main_search_form').length && !$($event.target).closest('#main_search_btn').length) {
                             hideMainSearch();
                         }
-                        // style switcher
-                        if( $rootScope.styleSwitcherActive && !$($event.target).closest('#style_switcher').length) {
-                            $rootScope.styleSwitcherActive = false;
-                        }
                     };
 
                     // hide components on key press (esc)

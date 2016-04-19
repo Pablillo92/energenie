@@ -7,9 +7,28 @@ angular
         'raspberrys',
         'utils',
         'variables',
-        function ($rootScope,$scope,$stateParams,raspberrys,utils,variables) {
+        'srvRaspberry',
+        function ($rootScope,$scope,$stateParams,raspberrys,utils,variables,srvRaspberry) {
 
             $rootScope.pageHeadingActive = true;
+
+            $scope.new_raspberry={};
+            $scope.addRaspberry=function(){
+                srvRaspberry.add($scope.new_raspberry).then(function(data){
+                    if(data.status=='ok'){
+                        notify({
+                            action:'success',
+                            msg: data.msg
+                        });
+                        $scope.new_raspberry.id=data.id;
+                        $scope.raspberrys.push($scope.new_raspberry);
+                    }else{
+                        notify({
+                            msg: data.msg
+                        });
+                    }
+                });
+            };
 
             $scope.raspberrys = raspberrys;
 

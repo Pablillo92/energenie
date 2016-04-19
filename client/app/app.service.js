@@ -1,4 +1,94 @@
+var PATHFEED="http://localhost/energenie/backend";
+PATHS = {
+    user: PATHFEED + "/api/user/",
+    userRegister: PATHFEED + "/api/register/",
+    userLogin: PATHFEED + "/api/login/",
+    addRaspberry: PATHFEED + "/api/addRaspberry/"
+};
+
 altairApp
+// Servicio para el manejo de usuarios del sistema
+.factory('user', function ($http, $q) {
+	var resource={
+        /**
+		 * Registra al usuario
+		 */
+		register: function (user) {
+			var deferred = $q.defer();
+            $http({
+                method  : 'POST',
+                url     : PATHS.userRegister,
+                data    : user
+            }).success(function(data) {
+                deferred.resolve(data);
+            }).error(function (data) {
+                deferred.reject(data);
+            });
+            return deferred.promise;
+		},
+         /**
+		 * loguea al usuario
+		 */
+		login: function (user) {
+			var deferred = $q.defer();
+            $http({
+                method  : 'POST',
+                url     : PATHS.userLogin,
+                data    : user
+            }).success(function(data) {
+                if(data.status=='ok') {
+                    $http.defaults.headers.common.Authorization = "Token " + data.token;
+                    localStorage.token=$http.defaults.headers.common.Authorization;
+                }
+                deferred.resolve(data);
+            }).error(function (data) {
+                deferred.reject(data);
+            });
+            return deferred.promise;
+		},
+         /**
+		 * loguea al usuario
+		 */
+		getUser: function () {
+			var deferred = $q.defer();
+            if(!!localStorage.token && !$http.defaults.headers.common.Authorization){
+                $http.defaults.headers.common.Authorization = localStorage.token;
+            }
+            $http({
+                method  : 'POST',
+                url     : PATHS.user
+            }).success(function(data) {
+                deferred.resolve(data);
+            }).error(function (data) {
+                deferred.reject(data);
+            });
+            return deferred.promise;
+		}
+	};
+	return resource;
+})
+// Servicio para el manejo de raspberrys del sistema
+.factory('srvRaspberry', function ($http, $q) {
+	var resource={
+        /**
+		 * inserta una raspberry
+		 */
+		add: function (raspberry) {
+			var deferred = $q.defer();
+            $http({
+                method  : 'POST',
+                url     : PATHS.addRaspberry,
+                data    : raspberry
+            }).success(function(data) {
+                deferred.resolve(data);
+            }).error(function (data) {
+                deferred.reject(data);
+            });
+            return deferred.promise;
+		}
+	};
+	return resource;
+})
     .service('detectBrowser', [
         '$window',
         function($window) {

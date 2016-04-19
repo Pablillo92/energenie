@@ -4,18 +4,18 @@ angular
         '$scope',
         '$rootScope',
         'utils',
-        function ($scope,$rootScope,utils) {
+        'user',
+        '$state',
+        function ($scope, $rootScope, utils, user, $state) {
 
             $scope.registerFormActive = false;
 
             var $login_card = $('#login_card'),
                 $login_form = $('#login_form'),
-                $login_help = $('#login_help'),
-                $register_form = $('#register_form'),
-                $login_password_reset = $('#login_password_reset');
+                $register_form = $('#register_form');
 
             // show login form (hide other forms)
-            var login_form_show = function() {
+            var login_form_show = function () {
                 $login_form
                     .show()
                     .siblings()
@@ -23,50 +23,75 @@ angular
             };
 
             // show register form (hide other forms)
-            var register_form_show = function() {
+            var register_form_show = function () {
                 $register_form
                     .show()
                     .siblings()
                     .hide();
             };
 
-            // show login help (hide other forms)
-            var login_help_show = function() {
-                $login_help
-                    .show()
-                    .siblings()
-                    .hide();
-            };
-
-            // show password reset form (hide other forms)
-            var password_reset_show = function() {
-                $login_password_reset
-                    .show()
-                    .siblings()
-                    .hide();
-            };
-
-            $scope.loginHelp = function($event) {
+            $scope.loginHelp = function ($event) {
                 $event.preventDefault();
-                utils.card_show_hide($login_card,undefined,login_help_show,undefined);
+                utils.card_show_hide($login_card, undefined, login_help_show, undefined);
             };
 
-            $scope.backToLogin = function($event) {
+            $scope.backToLogin = function ($event) {
                 $event.preventDefault();
                 $scope.registerFormActive = false;
-                utils.card_show_hide($login_card,undefined,login_form_show,undefined);
+                utils.card_show_hide($login_card, undefined, login_form_show, undefined);
             };
 
-            $scope.registerForm = function($event) {
+            $scope.registerForm = function ($event) {
                 $event.preventDefault();
                 $scope.registerFormActive = true;
-                utils.card_show_hide($login_card,undefined,register_form_show,undefined);
+                utils.card_show_hide($login_card, undefined, register_form_show, undefined);
             };
 
-            $scope.passwordReset = function($event) {
+            $scope.passwordReset = function ($event) {
                 $event.preventDefault();
-                utils.card_show_hide($login_card,undefined,password_reset_show,undefined);
+                utils.card_show_hide($login_card, undefined, password_reset_show, undefined);
             };
 
+            $scope.register = {};
+            $scope.sendRegister = function () {
+                if ($scope.register.password === $scope.register.password2) {
+                    user.register($scope.register).then(function (data) {
+                        if(data.status=='ok'){
+                            notify({
+                                action:'success',
+                                msg: data.msg
+                            });
+                            $scope.register = {};
+                            $scope.registerFormActive = false;
+                            utils.card_show_hide($login_card, undefined, login_form_show, undefined);
+                        }else{
+                            notify({
+                                msg: data.msg
+                            });
+                        }
+                    });
+                } else {
+                    notify({
+                        msg: 'Las contraseñas deben ser iguales'
+                    });
+                }
+            };
+
+            $scope.login = function () {
+                user.login($scope.user).then(function (data) {
+                    if(data.status=='ok'){
+                        notify({
+                            action:'success',
+                            msg: data.msg
+                        });
+                        $scope.user = {};
+                        $state.go("restricted.pages.raspberrys.list");
+                    }else{
+                        notify({
+                            msg: data.msg
+                        });
+                    }
+                });
+            }
         }
     ]);

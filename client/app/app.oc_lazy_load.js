@@ -353,14 +353,6 @@ altairApp
                             "bower_components/uikit/js/components/htmleditor.js"
                         ],
                         serie: true
-                    },
-
-                    // ----------- STYLE SWITCHER -----------
-                    {
-                        name: 'lazy_style_switcher',
-                        files: [
-                            "app/shared/style_switcher/style_switcher.js"
-                        ]
                     }
 
                 ]

@@ -1,0 +1,871 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="64c45adc-a35c-4950-9f98-5c776d3aa8ff" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/components/accordionView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/components/buttonsView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/components/cardsController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/components/cardsView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/components/colorsView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/components/commonView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/components/dropdownsView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/components/dynamic_gridView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/components/fabView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/components/gridView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/components/iconsView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/components/listsView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/components/modalView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/components/nestableController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/components/nestableView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/components/notificationsController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/components/notificationsView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/components/panelsView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/components/preloadersController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/components/preloadersView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/components/slideshowView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/components/sortableController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/components/sortableView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/components/tablesView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/components/tables_examplesView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/components/tabsView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/components/tooltipsView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/components/typographyView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/dashboard/dashboardController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/dashboard/dashboardView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/ecommerce/productController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/ecommerce/product_detailsView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/ecommerce/product_editView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/ecommerce/products_gridController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/ecommerce/products_gridView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/ecommerce/products_listController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/ecommerce/products_listView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/forms/advancedController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/forms/advancedView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/forms/file_inputController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/forms/file_inputView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/forms/file_uploadController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/forms/file_uploadView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/forms/regularController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/forms/regularView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/forms/validationController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/forms/validationView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/forms/wizardController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/forms/wizardView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/forms/wysiwyg_ckeditorController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/forms/wysiwyg_ckeditorView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/forms/wysiwyg_tinymceController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/forms/wysiwyg_tinymceView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/kendoUI/autocompleteController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/kendoUI/autocompleteView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/kendoUI/calendarController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/kendoUI/calendarView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/kendoUI/colorPickerView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/kendoUI/comboboxController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/kendoUI/comboboxView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/kendoUI/datepickerController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/kendoUI/datepickerView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/kendoUI/datetimepickerController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/kendoUI/datetimepickerView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/kendoUI/dropdown_listController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/kendoUI/dropdown_listView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/kendoUI/masked_inputController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/kendoUI/masked_inputView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/kendoUI/menuController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/kendoUI/menuView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/kendoUI/multiselectController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/kendoUI/multiselectView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/kendoUI/numeric_textboxController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/kendoUI/numeric_textboxView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/kendoUI/panelbarView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/kendoUI/timepickerView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/kendoUI/toolbarController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/kendoUI/toolbarView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/kendoUI/windowController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/kendoUI/windowView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/layout/full_headerController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/layout/full_headerView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/layout/top_menuController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/layout/top_menuView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/pages/blogController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/pages/blog_articleView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/pages/blog_listView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/pages/chatController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/pages/chatView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/pages/contact_listController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/pages/contact_listView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/pages/galleryController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/pages/galleryView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/pages/helpController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/pages/helpView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/pages/invoicesController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/pages/invoices_addView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/pages/invoices_blankView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/pages/invoices_detailView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/pages/invoices_listView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/pages/issue_detailsView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/pages/issuesController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/pages/issues_listView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/pages/mailboxController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/pages/mailboxView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/pages/notesController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/pages/notesView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/pages/pricing_tablesView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/pages/scrum_boardController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/pages/scrum_boardView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/pages/settingsController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/pages/settingsView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/pages/snippetsController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/pages/snippetsView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/pages/todoController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/pages/todoView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/plugins/calendarController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/plugins/calendarView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/plugins/chartsController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/plugins/chartsView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/plugins/code_editorController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/plugins/code_editorView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/plugins/datatablesController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/plugins/datatablesView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/plugins/diff_viewController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/plugins/diff_viewView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/plugins/gantt_chartController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/plugins/gantt_chartView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/plugins/google_mapsController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/plugins/google_mapsView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/plugins/tablesorterController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/plugins/tablesorterView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/plugins/treeController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/plugins/treeView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/plugins/vector_mapsController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/components/plugins/vector_mapsView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/shared/style_switcher/style_switcher.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/app/shared/style_switcher/style_switcher.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/app.controller.js" afterPath="$PROJECT_DIR$/client/app/app.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/app.directive.js" afterPath="$PROJECT_DIR$/client/app/app.directive.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/app.oc_lazy_load.js" afterPath="$PROJECT_DIR$/client/app/app.oc_lazy_load.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/app.service.js" afterPath="$PROJECT_DIR$/client/app/app.service.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/app.states.js" afterPath="$PROJECT_DIR$/client/app/app.states.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/shared/header/headerView.html" afterPath="$PROJECT_DIR$/client/app/shared/header/headerView.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/index.html" afterPath="$PROJECT_DIR$/client/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/components/pages/loginController.js" afterPath="$PROJECT_DIR$/client/app/components/pages/loginController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/components/pages/loginView.html" afterPath="$PROJECT_DIR$/client/app/components/pages/loginView.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/shared/main_sidebar/main_sidebarView.html" afterPath="$PROJECT_DIR$/client/app/shared/main_sidebar/main_sidebarView.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/shared/menu_top/menu_topView.html" afterPath="$PROJECT_DIR$/client/app/shared/menu_top/menu_topView.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/components/pages/raspberryController.js" afterPath="$PROJECT_DIR$/client/app/components/pages/raspberryController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/components/pages/raspberry_listView.html" afterPath="$PROJECT_DIR$/client/app/components/pages/raspberry_listView.html" />
+    </list>
+    <ignored path="energenie.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="energenie" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="app.states.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/app/app.states.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="97" max-vertical-offset="3255">
+              <caret line="26" column="29" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.service.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/app/app.service.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="2325">
+              <caret line="75" column="11" selection-start-line="75" selection-start-column="11" selection-end-line="75" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.controller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/app/app.controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1365">
+              <caret line="37" column="27" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="raspberry_listView.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/app/components/pages/raspberry_listView.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-29.625" vertical-offset="414" max-vertical-offset="1335">
+              <caret line="75" column="91" selection-start-line="75" selection-start-column="91" selection-end-line="75" selection-end-column="91" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="raspberryController.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/app/components/pages/raspberryController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7654723" vertical-offset="0" max-vertical-offset="2295">
+              <caret line="47" column="84" selection-start-line="47" selection-start-column="84" selection-end-line="47" selection-end-column="84" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/client/app/components/pages/raspberryView.html" />
+        <option value="$PROJECT_DIR$/client/app/app.factory.js" />
+        <option value="$PROJECT_DIR$/client/data/raspberry.json" />
+        <option value="$PROJECT_DIR$/client/app/components/pages/raspberry_editController.js" />
+        <option value="$PROJECT_DIR$/client/app/components/pages/raspberry_editView.html" />
+        <option value="$PROJECT_DIR$/client/app/components/pages/raspberry_detailsView.html" />
+        <option value="$PROJECT_DIR$/client/data/sockets.json" />
+        <option value="$PROJECT_DIR$/client/app/components/pages/socket_editController.js" />
+        <option value="$PROJECT_DIR$/client/app/components/pages/socket_editView.html" />
+        <option value="$PROJECT_DIR$/client/app/components/plugins/diff_viewView.html" />
+        <option value="$PROJECT_DIR$/client/app/components/components/panelsView.html" />
+        <option value="$PROJECT_DIR$/client/app/shared/header/headerView.html" />
+        <option value="$PROJECT_DIR$/client/app/shared/menu_top/menu_topView.html" />
+        <option value="$PROJECT_DIR$/client/app/shared/main_sidebar/main_sidebarView.html" />
+        <option value="$PROJECT_DIR$/client/app/app.states.js" />
+        <option value="$PROJECT_DIR$/client/app/app.oc_lazy_load.js" />
+        <option value="$PROJECT_DIR$/client/app/app.directive.js" />
+        <option value="$PROJECT_DIR$/client/index.html" />
+        <option value="$PROJECT_DIR$/client/app/components/pages/loginController.js" />
+        <option value="$PROJECT_DIR$/client/app/components/pages/loginView.html" />
+        <option value="$PROJECT_DIR$/client/app/app.controller.js" />
+        <option value="$PROJECT_DIR$/client/app/app.service.js" />
+        <option value="$PROJECT_DIR$/client/app/components/pages/raspberry_listView.html" />
+        <option value="$PROJECT_DIR$/client/app/components/pages/raspberryController.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1" />
+    <option name="y" value="27" />
+    <option name="width" value="1922" />
+    <option name="height" value="1054" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="energenie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="energenie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="energenie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="energenie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="energenie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="energenie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="energenie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="energenie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="energenie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="energenie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="energenie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="energenie" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="energenie" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="energenie" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="energenie" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="energenie" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="energenie" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="energenie" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="energenie" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="energenie" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="64c45adc-a35c-4950-9f98-5c776d3aa8ff" name="Default" comment="" />
+      <created>1457944436997</created>
+      <option name="number" value="Default" />
+      <updated>1457944436997</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="27" width="1922" height="1054" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3382508" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19791667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/client/data/snippets.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1545">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/data/user_data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.62782806" vertical-offset="0" max-vertical-offset="6960">
+          <caret line="37" column="10" selection-start-line="20" selection-start-column="18" selection-end-line="37" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/data/raspberry.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.84949833" vertical-offset="108" max-vertical-offset="1110">
+          <caret line="58" column="32" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/components/pages/user_editController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33258173" vertical-offset="980" max-vertical-offset="1875">
+          <caret line="85" column="20" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/components/pages/raspberry_editController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/components/pages/raspberry_editView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2545249" vertical-offset="150" max-vertical-offset="1125">
+          <caret line="25" column="79" selection-start-line="25" selection-start-column="79" selection-end-line="25" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/data/sockets.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="315">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/components/pages/raspberry_detailsView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1275" max-vertical-offset="2370">
+          <caret line="85" column="64" selection-start-line="85" selection-start-column="64" selection-end-line="85" selection-end-column="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/components/pages/socket_editView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="900" max-vertical-offset="1395">
+          <caret line="60" column="158" selection-start-line="60" selection-start-column="158" selection-end-line="60" selection-end-column="158" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/components/pages/user_editView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.625" vertical-offset="1665" max-vertical-offset="3255">
+          <caret line="136" column="46" selection-start-line="77" selection-start-column="40" selection-end-line="136" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/data/dt_data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6945">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/components/pages/user_profileView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.58597285" vertical-offset="727" max-vertical-offset="3390">
+          <caret line="83" column="52" selection-start-line="83" selection-start-column="52" selection-end-line="83" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.9218241" vertical-offset="1164" max-vertical-offset="2085">
+          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/shared/header/headerView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="495">
+          <caret line="18" column="101" selection-start-line="18" selection-start-column="101" selection-end-line="18" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/shared/main_sidebar/main_sidebarView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="645">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/app.directive.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.79216355" vertical-offset="3615" max-vertical-offset="20340">
+          <caret line="272" column="25" selection-start-line="272" selection-start-column="25" selection-end-line="272" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/app.oc_lazy_load.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.725" vertical-offset="4890" max-vertical-offset="5490">
+          <caret line="355" column="21" selection-start-line="355" selection-start-column="21" selection-end-line="355" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/shared/menu_top/menu_topView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="180">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/app.factory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2040">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45701358" vertical-offset="91" max-vertical-offset="1320">
+          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+          <folding>
+            <marker date="1461058768242" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/components/pages/loginView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.382387" vertical-offset="0" max-vertical-offset="863">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/app.states.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="97" max-vertical-offset="3255">
+          <caret line="26" column="29" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/app.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1365">
+          <caret line="37" column="27" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/components/pages/socket_editController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/components/pages/loginController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.65798044" vertical-offset="609" max-vertical-offset="1530">
+          <caret line="81" column="20" selection-start-line="81" selection-start-column="20" selection-end-line="92" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/app.service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="2325">
+          <caret line="75" column="11" selection-start-line="75" selection-start-column="11" selection-end-line="75" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/components/pages/raspberry_listView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-29.625" vertical-offset="414" max-vertical-offset="1335">
+          <caret line="75" column="91" selection-start-line="75" selection-start-column="91" selection-end-line="75" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/components/pages/raspberryController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7654723" vertical-offset="0" max-vertical-offset="2295">
+          <caret line="47" column="84" selection-start-line="47" selection-start-column="84" selection-end-line="47" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
