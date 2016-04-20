@@ -1,6 +1,6 @@
 <div id="page_content">
 
-    <div id="page_heading" data-uk-sticky="{ top: 48, media: 960 }">
+    <div id="page_heading">
         <h1>Raspberries</h1>
     </div>
 
@@ -27,7 +27,7 @@
                             <tr ng-repeat="raspberry in raspberrys" on-last-repeat>
                                 <td class="uk-text-center"><span class="uk-text-small uk-text-muted uk-text-nowrap">{{raspberry.id}}</span></td>
                                 <td>
-                                    <a ui-sref="restricted.pages.raspberrys.details({ raspberryId: raspberry.id })">{{raspberry.name}}</a>
+                                    <a ui-sref="restricted.pages.raspberrys.details({ raspberryId: raspberry.id })">{{raspberry.nombre}}</a>
                                 </td>
                                 <td>{{raspberry.ip}}</td>
                             </tr>

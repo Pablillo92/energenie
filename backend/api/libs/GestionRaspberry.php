@@ -43,10 +43,10 @@ function getRaspberry($pagina=0, $rpp=10, $condicion="", $orderby="order by id")
 	return $respuesta;
 }
 
-function getAllRaspberry($condicion="", $orderby="order by id"){
-	$this->bd->setConsulta("select * from "
+function getAllRaspberry($condicion="", $orderby="order by id"){ 
+	$this->bd->setConsulta("select rasp.* from "
 		.$this->nombreTabla.
-		" $condicion $orderby");
+		" rasp join rel_user_raspberry rel on rasp.id=rel.id_raspberry $condicion $orderby");
 	$respuesta = [];
 	while($fila = $this->bd->getFila()){
 		$obj = new Raspberry();
@@ -59,7 +59,7 @@ function getAllRaspberry($condicion="", $orderby="order by id"){
 function getRaspberryAjax($pagina=0, $rpp=10, $condicion="", $orderby="order by id"){
 	$paginas = $this->getPaginas($pagina, $rpp, $condicion);
 	$arrayRaspberry = $this->getRaspberry($paginas[4], $rpp, $condicion, $orderby);
-	$resultado = '{"pagina":"'.$paginas[4].'","respuesta":[';
+	$resultado = '{"pagina":"'.$paginas[4].'","response":[';
 	foreach ($arrayRaspberry as $clave => $raspberry) {
 		$resultado.=$raspberry->getJSON();
 	}
@@ -70,7 +70,7 @@ function getRaspberryAjax($pagina=0, $rpp=10, $condicion="", $orderby="order by 
 
 function getAllRaspberryAjax($condicion="", $orderby="order by id"){
 	$arrayRaspberry = $this->getAllRaspberry($condicion, $orderby);
-	$resultado = '{"respuesta":[';
+	$resultado = '{"response":[';
 	foreach ($arrayRaspberry as $clave => $raspberry) {
 		$resultado.=$raspberry->getJSON();
 	}

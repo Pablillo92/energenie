@@ -8,7 +8,9 @@ angular
         'utils',
         'variables',
         'srvRaspberry',
-        function ($rootScope,$scope,$stateParams,raspberrys,utils,variables,srvRaspberry) {
+        'srvSockets',
+        'srvUsers',
+        function ($rootScope,$scope,$stateParams,raspberrys,utils,variables,srvRaspberry, srvSockets, srvUsers) {
 
             $rootScope.pageHeadingActive = true;
 
@@ -30,9 +32,18 @@ angular
                 });
             };
 
-            $scope.raspberrys = raspberrys;
+            $scope.raspberrys = raspberrys.response;
 
             $scope.raspberry_details = utils.findByItemId($scope.raspberrys, $stateParams.raspberryId);
+
+            if($stateParams.raspberryId){
+                srvSockets.get($stateParams.raspberryId).then(function(data){
+                     $scope.raspberry_details.sockets=data.response;
+                });
+                srvUsers.get($stateParams.raspberryId).then(function(data){
+                     $scope.raspberry_details.users=data.response;
+                });
+            }
 
             $scope.$on('onLastRepeat', function (scope, element, attrs) {
 

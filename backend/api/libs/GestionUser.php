@@ -54,9 +54,9 @@ function getUser($pagina=0, $rpp=10, $condicion="", $orderby="order by id"){
 }
 
 function getAllUser($condicion="", $orderby="order by id"){
-	$this->bd->setConsulta("select * from "
+	$this->bd->setConsulta("select u.* from "
 		.$this->nombreTabla.
-		" $condicion $orderby");
+		" u join rel_user_raspberry rel on u.id=rel.id_user $condicion $orderby");
 	$respuesta = [];
 	while($fila = $this->bd->getFila()){
 		$obj = new User();
@@ -69,7 +69,7 @@ function getAllUser($condicion="", $orderby="order by id"){
 function getUserAjax($pagina=0, $rpp=10, $condicion="", $orderby="order by id"){
 	$paginas = $this->getPaginas($pagina, $rpp, $condicion);
 	$arrayUser = $this->getUser($paginas[4], $rpp, $condicion, $orderby);
-	$resultado = '{"pagina":"'.$paginas[4].'","respuesta":[';
+	$resultado = '{"pagina":"'.$paginas[4].'","response":[';
 	foreach ($arrayUser as $clave => $user) {
 		$resultado.=$user->getJSON();
 	}
@@ -80,9 +80,9 @@ function getUserAjax($pagina=0, $rpp=10, $condicion="", $orderby="order by id"){
 
 function getAllUserAjax($condicion="", $orderby="order by id"){
 	$arrayUser = $this->getAllUser($condicion, $orderby);
-	$resultado = '{"respuesta":[';
+	$resultado = '{"response":[';
 	foreach ($arrayUser as $clave => $user) {
-		$resultado.=$user->getJSON();
+		$resultado.=$user->getJSON().",";
 	}
 	if(count($arrayUser)>0){
 		$resultado = substr($resultado, 0, strlen($resultado)-1);

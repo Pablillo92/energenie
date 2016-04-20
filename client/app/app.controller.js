@@ -14,31 +14,23 @@ angular
         '$timeout',
         '$scope',
         '$window',
-        'user',
         '$state',
-        function ($timeout,$scope,$window,user,$state) {
+        'user',
+        function ($timeout,$scope,$window,$state,user) {
 
-            $scope.user_data = {
-                name: "Lue Feest",
-                avatar: "assets/img/avatars/avatar_11_tn.png"
-            };
-
-            user.getUser().then(function (data) {
-                if(data.status=='ok'){
-                    $scope.user_data = data.user;
-                    $scope.user_data.avatar="assets/img/avatars/avatar_11_tn.png";
-                }else{
-                    notify({
-                        msg: data.msg
-                    });
+            if(user.status=='ok'){
+                $scope.user_data = user.user;
+                $scope.user_data.avatar="assets/img/avatars/avatar_11_tn.png";
+            }else if(user.status=='fail'){
+                notify({
+                    msg: user.msg
+                });
+                $state.go("login");
+                $timeout(function(){
+                    //forzado por si acaso
                     $state.go("login");
-                    $timeout(function(){
-                        //forzado por si acaso
-                        $state.go("login");
-                    },1000)
-                }
-            });
-
+                },1000)
+            }
 
             $('#menu_top').children('[data-uk-dropdown]').on('show.uk.dropdown', function(){
                 $timeout(function() {

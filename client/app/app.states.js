@@ -4,6 +4,12 @@ altairApp
         '$urlRouterProvider',
         function ($stateProvider, $urlRouterProvider) {
 
+            var reloadToken=function($http){
+                if(!!localStorage.token && !$http.defaults.headers.common.Authorization){
+                    $http.defaults.headers.common.Authorization = localStorage.token;
+                }
+            };
+
             // Use $urlRouterProvider to configure any redirects (when) and invalid urls (otherwise).
             $urlRouterProvider
                 .when('/login', '/')
@@ -63,7 +69,14 @@ altairApp
                                 'lazy_autosize',
                                 'lazy_iCheck',
                             ],{ serie: true });
-                        }]
+                        }],
+                        user: function($http){
+                            reloadToken($http);
+                            return $http({ method: 'POST', url: PATHS.user })
+                                .then(function (data) {
+                                    return data.data;
+                                });
+                        }
                     }
                 })
             // -- PAGES --
@@ -91,7 +104,8 @@ altairApp
                             ]);
                         }],
                         raspberrys: function($http){
-                            return $http({ method: 'GET', url: 'data/raspberry.json' })
+                            reloadToken($http);
+                            return $http({ method: 'POST', url: PATHS.getRaspberries })
                                 .then(function (data) {
                                     return data.data;
                                 });

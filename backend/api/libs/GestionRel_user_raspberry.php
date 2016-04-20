@@ -59,7 +59,7 @@ function getAllRel_user_raspberry($condicion="", $orderby="order by id_user"){
 function getRel_user_raspberryAjax($pagina=0, $rpp=10, $condicion="", $orderby="order by id_user"){
 	$paginas = $this->getPaginas($pagina, $rpp, $condicion);
 	$arrayRel_user_raspberry = $this->getRel_user_raspberry($paginas[4], $rpp, $condicion, $orderby);
-	$resultado = '{"pagina":"'.$paginas[4].'","respuesta":[';
+	$resultado = '{"pagina":"'.$paginas[4].'","response":[';
 	foreach ($arrayRel_user_raspberry as $clave => $rel_user_raspberry) {
 		$resultado.=$rel_user_raspberry->getJSON();
 	}
@@ -70,7 +70,7 @@ function getRel_user_raspberryAjax($pagina=0, $rpp=10, $condicion="", $orderby="
 
 function getAllRel_user_raspberryAjax($condicion="", $orderby="order by id_user"){
 	$arrayRel_user_raspberry = $this->getAllRel_user_raspberry($condicion, $orderby);
-	$resultado = '{"respuesta":[';
+	$resultado = '{"response":[';
 	foreach ($arrayRel_user_raspberry as $clave => $rel_user_raspberry) {
 		$resultado.=$rel_user_raspberry->getJSON();
 	}

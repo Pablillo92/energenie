@@ -3,7 +3,10 @@ PATHS = {
     user: PATHFEED + "/api/user/",
     userRegister: PATHFEED + "/api/register/",
     userLogin: PATHFEED + "/api/login/",
-    addRaspberry: PATHFEED + "/api/addRaspberry/"
+    addRaspberry: PATHFEED + "/api/addRaspberry/",
+    getRaspberries: PATHFEED + "/api/getRaspberries/",
+    getSockets: PATHFEED + "/api/getSockets/",
+    getUsers: PATHFEED + "/api/getUsers/"
 };
 
 altairApp
@@ -45,24 +48,6 @@ altairApp
                 deferred.reject(data);
             });
             return deferred.promise;
-		},
-         /**
-		 * loguea al usuario
-		 */
-		getUser: function () {
-			var deferred = $q.defer();
-            if(!!localStorage.token && !$http.defaults.headers.common.Authorization){
-                $http.defaults.headers.common.Authorization = localStorage.token;
-            }
-            $http({
-                method  : 'POST',
-                url     : PATHS.user
-            }).success(function(data) {
-                deferred.resolve(data);
-            }).error(function (data) {
-                deferred.reject(data);
-            });
-            return deferred.promise;
 		}
 	};
 	return resource;
@@ -79,6 +64,50 @@ altairApp
                 method  : 'POST',
                 url     : PATHS.addRaspberry,
                 data    : raspberry
+            }).success(function(data) {
+                deferred.resolve(data);
+            }).error(function (data) {
+                deferred.reject(data);
+            });
+            return deferred.promise;
+		}
+	};
+	return resource;
+})
+// Servicio para el manejo de socket del sistema
+.factory('srvSockets', function ($http, $q) {
+	var resource={
+        /**
+		 * inserta una raspberry
+		 */
+		get: function (raspberry) {
+			var deferred = $q.defer();
+            $http({
+                method  : 'POST',
+                url     : PATHS.getSockets,
+                data    : {id:raspberry}
+            }).success(function(data) {
+                deferred.resolve(data);
+            }).error(function (data) {
+                deferred.reject(data);
+            });
+            return deferred.promise;
+		}
+	};
+	return resource;
+})
+// Servicio para el manejo de socket del sistema
+.factory('srvUsers', function ($http, $q) {
+	var resource={
+        /**
+		 * inserta una raspberry
+		 */
+		get: function (raspberry) {
+			var deferred = $q.defer();
+            $http({
+                method  : 'POST',
+                url     : PATHS.getUsers,
+                data    : {id:raspberry}
             }).success(function(data) {
                 deferred.resolve(data);
             }).error(function (data) {

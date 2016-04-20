@@ -59,7 +59,7 @@ function getAllSocket($condicion="", $orderby="order by id"){
 function getSocketAjax($pagina=0, $rpp=10, $condicion="", $orderby="order by id"){
 	$paginas = $this->getPaginas($pagina, $rpp, $condicion);
 	$arraySocket = $this->getSocket($paginas[4], $rpp, $condicion, $orderby);
-	$resultado = '{"pagina":"'.$paginas[4].'","respuesta":[';
+	$resultado = '{"pagina":"'.$paginas[4].'","response":[';
 	foreach ($arraySocket as $clave => $socket) {
 		$resultado.=$socket->getJSON();
 	}
@@ -70,7 +70,7 @@ function getSocketAjax($pagina=0, $rpp=10, $condicion="", $orderby="order by id"
 
 function getAllSocketAjax($condicion="", $orderby="order by id"){
 	$arraySocket = $this->getAllSocket($condicion, $orderby);
-	$resultado = '{"respuesta":[';
+	$resultado = '{"response":[';
 	foreach ($arraySocket as $clave => $socket) {
 		$resultado.=$socket->getJSON();
 	}
