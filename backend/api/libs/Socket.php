@@ -33,7 +33,7 @@ public function getJSON(){
 	'"state":"'.$this->state.'",'.
 	'"active":"'.$this->active.'",'.
 	'"rel":"'.$this->rel.'"'.
-	'},';
+	'}';
 }
 public function getId() {
 	return $this->id;

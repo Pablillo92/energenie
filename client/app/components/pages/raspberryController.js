@@ -32,6 +32,35 @@ angular
                 });
             };
 
+            $scope.new_socket={};
+            $scope.addSocket=function(){
+                if($scope.new_socket.rel<5 && $scope.new_socket.rel>0){
+                    $scope.new_socket.raspberry=$stateParams.raspberryId;
+                    $scope.new_socket.state=0;
+                    $scope.new_socket.active=0;
+                    srvSockets.add($scope.new_socket).then(function(data){
+                        if(data.status=='ok'){
+                            notify({
+                                action:'success',
+                                msg: data.msg
+                            });
+                            $scope.new_socket.id=data.id;
+                            $scope.raspberry_details.sockets.push($scope.new_socket);
+                            $scope.new_socket={};
+                        }else{
+                            notify({
+                                msg: data.msg
+                            });
+                        }
+                    });
+                }else{
+                    notify({
+                        msg: 'El campo Nº de socket no puede ser mayor que 4'
+                    });
+                }
+            };
+
+
             $scope.raspberrys = raspberrys.response;
 
             $scope.raspberry_details = utils.findByItemId($scope.raspberrys, $stateParams.raspberryId);

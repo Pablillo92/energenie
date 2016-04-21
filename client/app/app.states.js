@@ -140,7 +140,8 @@ altairApp
                             ],{serie: true});
                         }],
                         raspberrys: function($http){
-                            return $http({ method: 'GET', url: 'data/raspberry.json' })
+                            reloadToken($http);
+                            return $http({ method: 'POST', url: PATHS.getRaspberries })
                                 .then(function (data) {
                                     return data.data;
                                 });
@@ -161,8 +162,9 @@ altairApp
                                 'app/components/pages/socket_editController.js'
                             ],{serie: true});
                         }],
-                        sockets: function($http){
-                            return $http({ method: 'GET', url: 'data/sockets.json' })
+                        socket: function($http,$stateParams){
+                            reloadToken($http);
+                            return $http({ method: 'POST', url: PATHS.getSocket,  data:{id:$stateParams.socketId} })
                                 .then(function (data) {
                                     return data.data;
                                 });

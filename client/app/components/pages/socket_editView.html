@@ -15,8 +15,8 @@
                                 <div class="md-fab md-fab-toolbar md-fab-small md-fab-accent" md-fab-toolbar>
                                     <i class="material-icons">&#xE8BE;</i>
                                     <div class="md-fab-toolbar-actions">
-                                        <button type="submit" id="user_edit_save" data-uk-tooltip="{cls:'uk-tooltip-small',pos:'bottom'}" title="Guardar"><i class="material-icons md-color-white">&#xE161;</i></button>
-                                        <button type="submit" id="user_edit_delete" data-uk-tooltip="{cls:'uk-tooltip-small',pos:'bottom'}" title="Borrar"><i class="material-icons md-color-white">&#xE872;</i></button>
+                                        <button ng-click="edit()" id="user_edit_save" data-uk-tooltip="{cls:'uk-tooltip-small',pos:'bottom'}" title="Guardar"><i class="material-icons md-color-white">&#xE161;</i></button>
+                                        <button ng-click="remove()" id="user_edit_delete" data-uk-tooltip="{cls:'uk-tooltip-small',pos:'bottom'}" title="Borrar"><i class="material-icons md-color-white">&#xE872;</i></button>
                                     </div>
                                 </div>
                             </div>
@@ -40,7 +40,7 @@
                                                                 <i class="md-list-addon-icon material-icons">&#xE54E;</i>
                                                             </span>
                                                             <label>Nombre</label>
-                                                            <input type="text" class="md-input" name="user_edit_phone" ng-model="socket.name" md-input />
+                                                            <input type="text" class="md-input" name="user_edit_phone" ng-model="socket.nombre" md-input />
                                                         </div>
                                                     </div>
                                                     <div>

@@ -8,7 +8,7 @@ spl_autoload_register('autocarga');
 $headers=getallheaders();
 $postdata = file_get_contents("php://input");
 $request = json_decode($postdata);
-$name=$request->name;
+$name=$request->nombre;
 $ip=$request->ip;
 
 if(isset($headers['Authorization'])){

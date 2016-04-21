@@ -72,7 +72,7 @@ function getAllSocketAjax($condicion="", $orderby="order by id"){
 	$arraySocket = $this->getAllSocket($condicion, $orderby);
 	$resultado = '{"response":[';
 	foreach ($arraySocket as $clave => $socket) {
-		$resultado.=$socket->getJSON();
+		$resultado.=$socket->getJSON().",";
 	}
 	if(count($arraySocket)>0){
 		$resultado = substr($resultado, 0, strlen($resultado)-1);
@@ -89,10 +89,10 @@ function delete($id) {
 
 function set(Socket $obj, $idold) {
 	$sql = "update " . $this->nombreTabla . " set " .
-		"id_raspberry='" . $obj->getId_raspberry() . "' " .
-		"nombre='" . $obj->getNombre() . "' " .
-		"state='" . $obj->getState() . "' " .
-		"active='" . $obj->getActive() . "' " .
+		"id_raspberry='" . $obj->getId_raspberry() . "', " .
+		"nombre='" . $obj->getNombre() . "', " .
+		"state='" . $obj->getState() . "', " .
+		"active='" . $obj->getActive() . "', " .
 		"rel='" . $obj->getRel() . "' " .
 		"where id='$idold' ";
 	$this->bd->setConsulta($sql);
@@ -108,7 +108,7 @@ function insert(Socket $obj) {
 		"'" . $obj->getActive() . "', " .
 		"'" . $obj->getRel() . "')";
 	$this->bd->setConsulta($sql);
-	return $this->bd->getNumeroFilasAfectadas();
+	return $this->bd->getAutonumerico();
 }
 
 function getPaginas($pagina=0, $rpp=10, $condicion=""){

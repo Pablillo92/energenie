@@ -4,9 +4,15 @@ PATHS = {
     userRegister: PATHFEED + "/api/register/",
     userLogin: PATHFEED + "/api/login/",
     addRaspberry: PATHFEED + "/api/addRaspberry/",
+    editRaspberry: PATHFEED + "/api/editRaspberry/",
+    delRaspberry: PATHFEED + "/api/delRaspberry/",
     getRaspberries: PATHFEED + "/api/getRaspberries/",
     getSockets: PATHFEED + "/api/getSockets/",
-    getUsers: PATHFEED + "/api/getUsers/"
+    getSocket: PATHFEED + "/api/getSocket/",
+    delSocket: PATHFEED + "/api/delSocket/",
+    editSocket: PATHFEED + "/api/editSocket/",
+    getUsers: PATHFEED + "/api/getUsers/",
+    addSocket: PATHFEED + "/api/addSocket/"
 };
 
 altairApp
@@ -70,6 +76,38 @@ altairApp
                 deferred.reject(data);
             });
             return deferred.promise;
+		},
+        /**
+		 * borra una raspberry
+		 */
+		del: function (raspberry) {
+			var deferred = $q.defer();
+            $http({
+                method  : 'POST',
+                url     : PATHS.delRaspberry,
+                data    : raspberry
+            }).success(function(data) {
+                deferred.resolve(data);
+            }).error(function (data) {
+                deferred.reject(data);
+            });
+            return deferred.promise;
+		},
+        /**
+		 * edita una raspberry
+		 */
+		edit: function (raspberry) {
+			var deferred = $q.defer();
+            $http({
+                method  : 'POST',
+                url     : PATHS.editRaspberry,
+                data    : raspberry
+            }).success(function(data) {
+                deferred.resolve(data);
+            }).error(function (data) {
+                deferred.reject(data);
+            });
+            return deferred.promise;
 		}
 	};
 	return resource;
@@ -78,7 +116,7 @@ altairApp
 .factory('srvSockets', function ($http, $q) {
 	var resource={
         /**
-		 * inserta una raspberry
+		 * trae los sockets
 		 */
 		get: function (raspberry) {
 			var deferred = $q.defer();
@@ -92,15 +130,63 @@ altairApp
                 deferred.reject(data);
             });
             return deferred.promise;
+		},
+         /**
+		 * añade un socket
+		 */
+		add: function (socket) {
+			var deferred = $q.defer();
+            $http({
+                method  : 'POST',
+                url     : PATHS.addSocket,
+                data    : socket
+            }).success(function(data) {
+                deferred.resolve(data);
+            }).error(function (data) {
+                deferred.reject(data);
+            });
+            return deferred.promise;
+		},
+        /**
+		 * borra un socket
+		 */
+		del: function (socket) {
+			var deferred = $q.defer();
+            $http({
+                method  : 'POST',
+                url     : PATHS.delSocket,
+                data    : socket
+            }).success(function(data) {
+                deferred.resolve(data);
+            }).error(function (data) {
+                deferred.reject(data);
+            });
+            return deferred.promise;
+		},
+        /**
+		 * edita un socket
+		 */
+		edit: function (socket) {
+			var deferred = $q.defer();
+            $http({
+                method  : 'POST',
+                url     : PATHS.editSocket,
+                data    : socket
+            }).success(function(data) {
+                deferred.resolve(data);
+            }).error(function (data) {
+                deferred.reject(data);
+            });
+            return deferred.promise;
 		}
 	};
 	return resource;
 })
-// Servicio para el manejo de socket del sistema
+// Servicio para el manejo de usuarios del sistema
 .factory('srvUsers', function ($http, $q) {
 	var resource={
         /**
-		 * inserta una raspberry
+		 * trae los usuarios asociados a una raspberry
 		 */
 		get: function (raspberry) {
 			var deferred = $q.defer();

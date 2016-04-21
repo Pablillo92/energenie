@@ -89,7 +89,7 @@ function delete($id) {
 
 function set(Raspberry $obj, $idold) {
 	$sql = "update " . $this->nombreTabla . " set " .
-		"nombre='" . $obj->getNombre() . "' " .
+		"nombre='" . $obj->getNombre() . "', " .
 		"ip='" . $obj->getIp() . "' " .
 		"where id='$idold' ";
 	$this->bd->setConsulta($sql);
