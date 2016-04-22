@@ -2,86 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64c45adc-a35c-4950-9f98-5c776d3aa8ff" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/ecommerce/s6_edge.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/ecommerce/s6_edge@2x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/ecommerce/s6_edge_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/ecommerce/s6_edge_1@2x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/ecommerce/s6_edge_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/ecommerce/s6_edge_2@2x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/ecommerce/s6_edge_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/ecommerce/s6_edge_3@2x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image01@2x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image02@2x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image03@2x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image04@2x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image05@2x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image06@2x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image07@2x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image08@2x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image09.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image09@2x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image10@2x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image11@2x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image12@2x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image13@2x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image14@2x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image15@2x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image16@2x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image17@2x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image18@2x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image19@2x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image20@2x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image21@2x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image22@2x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image23@2x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image24.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image24@2x.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/img/favicon-16x16.png" afterPath="$PROJECT_DIR$/client/assets/img/favicon-16x16.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/img/favicon-32x32.png" afterPath="$PROJECT_DIR$/client/assets/img/favicon-32x32.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/favicon.ico" afterPath="$PROJECT_DIR$/client/favicon.ico" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/img/logo_main.png" afterPath="$PROJECT_DIR$/client/assets/img/logo_main.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/img/logo_main@2x.png" afterPath="$PROJECT_DIR$/client/assets/img/logo_main@2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/img/logo_main_small.png" afterPath="$PROJECT_DIR$/client/assets/img/logo_main_small.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/img/logo_main_small@2x.png" afterPath="$PROJECT_DIR$/client/assets/img/logo_main_small@2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/api/libs/GestionUser.php" afterPath="$PROJECT_DIR$/backend/api/libs/GestionUser.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/app.controller.js" afterPath="$PROJECT_DIR$/client/app/app.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/app.service.js" afterPath="$PROJECT_DIR$/client/app/app.service.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/app.states.js" afterPath="$PROJECT_DIR$/client/app/app.states.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/shared/header/headerView.html" afterPath="$PROJECT_DIR$/client/app/shared/header/headerView.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/components/pages/loginController.js" afterPath="$PROJECT_DIR$/client/app/components/pages/loginController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/shared/main_sidebar/main_sidebarView.html" afterPath="$PROJECT_DIR$/client/app/shared/main_sidebar/main_sidebarView.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/components/pages/raspberryController.js" afterPath="$PROJECT_DIR$/client/app/components/pages/raspberryController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/components/pages/raspberry_detailsView.html" afterPath="$PROJECT_DIR$/client/app/components/pages/raspberry_detailsView.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/components/pages/raspberry_editView.html" afterPath="$PROJECT_DIR$/client/app/components/pages/raspberry_editView.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/components/pages/raspberry_listView.html" afterPath="$PROJECT_DIR$/client/app/components/pages/raspberry_listView.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/components/pages/socket_editController.js" afterPath="$PROJECT_DIR$/client/app/components/pages/socket_editController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/components/pages/socket_editView.html" afterPath="$PROJECT_DIR$/client/app/components/pages/socket_editView.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/components/pages/user_editController.js" afterPath="$PROJECT_DIR$/client/app/components/pages/user_editController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/components/pages/user_editView.html" afterPath="$PROJECT_DIR$/client/app/components/pages/user_editView.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/components/pages/user_profileController.js" afterPath="$PROJECT_DIR$/client/app/components/pages/user_profileController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/components/pages/user_profileView.html" afterPath="$PROJECT_DIR$/client/app/components/pages/user_profileView.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/APP/www/app/app.js" afterPath="$PROJECT_DIR$/APP/www/app/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/APP/www/app/app.service.js" afterPath="$PROJECT_DIR$/APP/www/app/app.service.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/APP/www/app/components/pages/raspberry_detailsView.html" afterPath="$PROJECT_DIR$/APP/www/app/components/pages/raspberry_detailsView.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/APP/www/app/components/pages/raspberry_listView.html" afterPath="$PROJECT_DIR$/APP/www/app/components/pages/raspberry_listView.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="energenie.iws" />
@@ -110,8 +34,38 @@
       <file leaf-file-name="app.service.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/APP/www/app/app.service.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19823788" vertical-offset="0" max-vertical-offset="4560">
-              <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+            <state vertical-scroll-proportion="0.033039648" vertical-offset="0" max-vertical-offset="4575">
+              <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="raspberry_listView.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/APP/www/app/components/pages/raspberry_listView.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="825">
+              <caret line="10" column="136" selection-start-line="10" selection-start-column="136" selection-end-line="10" selection-end-column="136" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="raspberry_detailsView.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/APP/www/app/components/pages/raspberry_detailsView.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.75" vertical-offset="1755" max-vertical-offset="3015">
+              <caret line="139" column="107" selection-start-line="139" selection-start-column="107" selection-end-line="139" selection-end-column="107" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.controller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/APP/www/app/app.controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="331" max-vertical-offset="1320">
+              <caret line="77" column="35" selection-start-line="77" selection-start-column="27" selection-end-line="77" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -158,13 +112,14 @@
         <option value="$PROJECT_DIR$/client/app/app.service.js" />
         <option value="$PROJECT_DIR$/client/app/components/pages/raspberryController.js" />
         <option value="$PROJECT_DIR$/client/app/components/pages/raspberry_detailsView.html" />
-        <option value="$PROJECT_DIR$/APP/www/app/components/pages/raspberry_detailsView.html" />
-        <option value="$PROJECT_DIR$/APP/www/app/app.js" />
         <option value="$PROJECT_DIR$/APP/www/app/app.states.js" />
         <option value="$PROJECT_DIR$/APP/www/app/components/pages/loginController.js" />
         <option value="$PROJECT_DIR$/client/app/components/pages/loginController.js" />
         <option value="$PROJECT_DIR$/client/app/shared/header/headerView.html" />
         <option value="$PROJECT_DIR$/client/app/app.controller.js" />
+        <option value="$PROJECT_DIR$/APP/www/app/app.js" />
+        <option value="$PROJECT_DIR$/APP/www/app/components/pages/raspberry_listView.html" />
+        <option value="$PROJECT_DIR$/APP/www/app/components/pages/raspberry_detailsView.html" />
         <option value="$PROJECT_DIR$/APP/www/app/app.service.js" />
       </list>
     </option>
@@ -403,6 +358,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -666,14 +625,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/app/app.states.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1155" max-vertical-offset="3465">
-          <caret line="77" column="35" selection-start-line="77" selection-start-column="35" selection-end-line="77" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/app/app.service.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1125" max-vertical-offset="2760">
@@ -885,16 +836,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/APP/www/app/app.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.78015786" vertical-offset="403" max-vertical-offset="1290">
-          <caret line="73" column="40" selection-start-line="73" selection-start-column="38" selection-end-line="73" selection-end-column="40" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/APP/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1320">
@@ -985,22 +926,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/APP/www/app/components/pages/raspberry_detailsView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08361204" vertical-offset="0" max-vertical-offset="3000">
-          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/APP/www/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.5472313" vertical-offset="0" max-vertical-offset="1980">
-          <caret line="97" column="44" selection-start-line="97" selection-start-column="44" selection-end-line="97" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/APP/www/app/app.states.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3435">
@@ -1065,10 +990,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/APP/www/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1059" max-vertical-offset="1980">
+          <caret line="98" column="12" selection-start-line="98" selection-start-column="12" selection-end-line="98" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APP/www/app/app.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="331" max-vertical-offset="1320">
+          <caret line="77" column="35" selection-start-line="77" selection-start-column="27" selection-end-line="77" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APP/www/app/components/pages/raspberry_detailsView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.75" vertical-offset="1755" max-vertical-offset="3015">
+          <caret line="139" column="107" selection-start-line="139" selection-start-column="107" selection-end-line="139" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APP/www/app/components/pages/raspberry_listView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="825">
+          <caret line="10" column="136" selection-start-line="10" selection-start-column="136" selection-end-line="10" selection-end-column="136" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/APP/www/app/app.service.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19823788" vertical-offset="0" max-vertical-offset="4560">
-          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.033039648" vertical-offset="0" max-vertical-offset="4575">
+          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
           <folding />
         </state>
       </provider>
