@@ -1,0 +1,21 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.intelligenia.intellimobile.ipso"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.intelligenia.intellimobile.ipso"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.intelligenia.intellimobile.ipso"
+        }
+    },
+    "dependent_plugins": {}
+}

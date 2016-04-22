@@ -3,6 +3,8 @@ PATHS = {
     user: PATHFEED + "/api/user/",
     userRegister: PATHFEED + "/api/register/",
     userLogin: PATHFEED + "/api/login/",
+    editUser: PATHFEED + "/api/editUser/",
+    addUser: PATHFEED + "/api/addUser/",
     addRaspberry: PATHFEED + "/api/addRaspberry/",
     editRaspberry: PATHFEED + "/api/editRaspberry/",
     delRaspberry: PATHFEED + "/api/delRaspberry/",
@@ -194,6 +196,38 @@ altairApp
                 method  : 'POST',
                 url     : PATHS.getUsers,
                 data    : {id:raspberry}
+            }).success(function(data) {
+                deferred.resolve(data);
+            }).error(function (data) {
+                deferred.reject(data);
+            });
+            return deferred.promise;
+		},
+        /**
+		 * edita el usuario
+		 */
+		edit: function (user) {
+			var deferred = $q.defer();
+            $http({
+                method  : 'POST',
+                url     : PATHS.editUser,
+                data    : user
+            }).success(function(data) {
+                deferred.resolve(data);
+            }).error(function (data) {
+                deferred.reject(data);
+            });
+            return deferred.promise;
+		},
+        /**
+		 * añade un usuario
+		 */
+		add: function (user) {
+			var deferred = $q.defer();
+            $http({
+                method  : 'POST',
+                url     : PATHS.addUser,
+                data    : user
             }).success(function(data) {
                 deferred.resolve(data);
             }).error(function (data) {

@@ -99,8 +99,7 @@ function delete($id) {
 
 function set(User $obj, $idold) {
 	$sql = "update " . $this->nombreTabla . " set " .
-		"email='" . $obj->getEmail() . "' " .
-		"pass='" . $obj->getPass() . "' " .
+		"email='" . $obj->getEmail() . "', " .
 		"name='" . $obj->getName() . "' " .
 		"where id='$idold' ";
 	$this->bd->setConsulta($sql);

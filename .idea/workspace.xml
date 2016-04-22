@@ -2,19 +2,86 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64c45adc-a35c-4950-9f98-5c776d3aa8ff" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/api/libs/GestionRaspberry.php" afterPath="$PROJECT_DIR$/backend/api/libs/GestionRaspberry.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/api/libs/GestionSocket.php" afterPath="$PROJECT_DIR$/backend/api/libs/GestionSocket.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/api/libs/Socket.php" afterPath="$PROJECT_DIR$/backend/api/libs/Socket.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/ecommerce/s6_edge.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/ecommerce/s6_edge@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/ecommerce/s6_edge_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/ecommerce/s6_edge_1@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/ecommerce/s6_edge_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/ecommerce/s6_edge_2@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/ecommerce/s6_edge_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/ecommerce/s6_edge_3@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image01@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image02@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image03@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image04@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image05@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image06@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image07.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image07@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image08.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image08@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image09.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image09@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image10@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image11@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image12@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image13@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image14@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image15@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image16@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image17.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image17@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image18.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image18@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image19.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image19@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image20.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image20@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image21.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image21@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image22.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image22@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image23.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image23@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image24.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/assets/img/gallery/Image24@2x.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/img/favicon-16x16.png" afterPath="$PROJECT_DIR$/client/assets/img/favicon-16x16.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/img/favicon-32x32.png" afterPath="$PROJECT_DIR$/client/assets/img/favicon-32x32.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/favicon.ico" afterPath="$PROJECT_DIR$/client/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/img/logo_main.png" afterPath="$PROJECT_DIR$/client/assets/img/logo_main.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/img/logo_main@2x.png" afterPath="$PROJECT_DIR$/client/assets/img/logo_main@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/img/logo_main_small.png" afterPath="$PROJECT_DIR$/client/assets/img/logo_main_small.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/assets/img/logo_main_small@2x.png" afterPath="$PROJECT_DIR$/client/assets/img/logo_main_small@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/api/libs/GestionUser.php" afterPath="$PROJECT_DIR$/backend/api/libs/GestionUser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/app.controller.js" afterPath="$PROJECT_DIR$/client/app/app.controller.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/app.service.js" afterPath="$PROJECT_DIR$/client/app/app.service.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/app.states.js" afterPath="$PROJECT_DIR$/client/app/app.states.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/api/addRaspberry/index.php" afterPath="$PROJECT_DIR$/backend/api/addRaspberry/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/shared/header/headerView.html" afterPath="$PROJECT_DIR$/client/app/shared/header/headerView.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/components/pages/loginController.js" afterPath="$PROJECT_DIR$/client/app/components/pages/loginController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/shared/main_sidebar/main_sidebarView.html" afterPath="$PROJECT_DIR$/client/app/shared/main_sidebar/main_sidebarView.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/components/pages/raspberryController.js" afterPath="$PROJECT_DIR$/client/app/components/pages/raspberryController.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/components/pages/raspberry_detailsView.html" afterPath="$PROJECT_DIR$/client/app/components/pages/raspberry_detailsView.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/components/pages/raspberry_editController.js" afterPath="$PROJECT_DIR$/client/app/components/pages/raspberry_editController.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/components/pages/raspberry_editView.html" afterPath="$PROJECT_DIR$/client/app/components/pages/raspberry_editView.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/components/pages/raspberry_listView.html" afterPath="$PROJECT_DIR$/client/app/components/pages/raspberry_listView.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/components/pages/socket_editController.js" afterPath="$PROJECT_DIR$/client/app/components/pages/socket_editController.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/components/pages/socket_editView.html" afterPath="$PROJECT_DIR$/client/app/components/pages/socket_editView.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/components/pages/user_editController.js" afterPath="$PROJECT_DIR$/client/app/components/pages/user_editController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/components/pages/user_editView.html" afterPath="$PROJECT_DIR$/client/app/components/pages/user_editView.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/components/pages/user_profileController.js" afterPath="$PROJECT_DIR$/client/app/components/pages/user_profileController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/components/pages/user_profileView.html" afterPath="$PROJECT_DIR$/client/app/components/pages/user_profileView.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="energenie.iws" />
@@ -40,41 +107,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.states.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/app/app.states.js">
+      <file leaf-file-name="app.service.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/APP/www/app/app.service.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1929" max-vertical-offset="3495">
-              <caret line="166" column="116" selection-start-line="166" selection-start-column="116" selection-end-line="166" selection-end-column="116" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.service.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/app/app.service.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="4050">
-              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="socket_editController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/app/components/pages/socket_editController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
-              <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="socket_editView.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/app/components/pages/socket_editView.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5090498" vertical-offset="0" max-vertical-offset="1395">
-              <caret line="30" column="70" selection-start-line="30" selection-start-column="70" selection-end-line="30" selection-end-column="70" />
+            <state vertical-scroll-proportion="0.19823788" vertical-offset="0" max-vertical-offset="4560">
+              <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -94,24 +131,41 @@
         <option value="$PROJECT_DIR$/client/data/sockets.json" />
         <option value="$PROJECT_DIR$/client/app/components/plugins/diff_viewView.html" />
         <option value="$PROJECT_DIR$/client/app/components/components/panelsView.html" />
-        <option value="$PROJECT_DIR$/client/app/shared/header/headerView.html" />
         <option value="$PROJECT_DIR$/client/app/shared/menu_top/menu_topView.html" />
-        <option value="$PROJECT_DIR$/client/app/shared/main_sidebar/main_sidebarView.html" />
         <option value="$PROJECT_DIR$/client/app/app.oc_lazy_load.js" />
         <option value="$PROJECT_DIR$/client/app/app.directive.js" />
         <option value="$PROJECT_DIR$/client/index.html" />
-        <option value="$PROJECT_DIR$/client/app/components/pages/loginController.js" />
         <option value="$PROJECT_DIR$/client/app/components/pages/loginView.html" />
-        <option value="$PROJECT_DIR$/client/app/app.controller.js" />
-        <option value="$PROJECT_DIR$/client/app/components/pages/raspberryController.js" />
-        <option value="$PROJECT_DIR$/client/app/components/pages/raspberry_detailsView.html" />
+        <option value="$PROJECT_DIR$/client/app/components/pages/raspberry_editController.js" />
+        <option value="$PROJECT_DIR$/client/app/components/pages/socket_editView.html" />
+        <option value="$PROJECT_DIR$/client/app/components/pages/socket_editController.js" />
         <option value="$PROJECT_DIR$/client/app/components/pages/raspberry_editView.html" />
         <option value="$PROJECT_DIR$/client/app/components/pages/raspberry_listView.html" />
-        <option value="$PROJECT_DIR$/client/app/components/pages/raspberry_editController.js" />
+        <option value="$PROJECT_DIR$/APP/config.xml" />
+        <option value="$PROJECT_DIR$/APP/ionic.project" />
+        <option value="$PROJECT_DIR$/APP/package.json" />
+        <option value="$PROJECT_DIR$/APP/www/js/app.js" />
+        <option value="$PROJECT_DIR$/APP/www/js/services.js" />
+        <option value="$PROJECT_DIR$/APP/www/js/controllers.js" />
+        <option value="$PROJECT_DIR$/APP/www/templates/menu.html" />
+        <option value="$PROJECT_DIR$/client/app/shared/main_sidebar/main_sidebarView.html" />
+        <option value="$PROJECT_DIR$/APP/bower.json" />
+        <option value="$PROJECT_DIR$/client/app/components/pages/user_profileController.js" />
+        <option value="$PROJECT_DIR$/client/app/components/pages/user_profileView.html" />
         <option value="$PROJECT_DIR$/client/app/app.states.js" />
-        <option value="$PROJECT_DIR$/client/app/components/pages/socket_editController.js" />
-        <option value="$PROJECT_DIR$/client/app/components/pages/socket_editView.html" />
+        <option value="$PROJECT_DIR$/client/app/components/pages/user_editController.js" />
+        <option value="$PROJECT_DIR$/client/app/components/pages/user_editView.html" />
         <option value="$PROJECT_DIR$/client/app/app.service.js" />
+        <option value="$PROJECT_DIR$/client/app/components/pages/raspberryController.js" />
+        <option value="$PROJECT_DIR$/client/app/components/pages/raspberry_detailsView.html" />
+        <option value="$PROJECT_DIR$/APP/www/app/components/pages/raspberry_detailsView.html" />
+        <option value="$PROJECT_DIR$/APP/www/app/app.js" />
+        <option value="$PROJECT_DIR$/APP/www/app/app.states.js" />
+        <option value="$PROJECT_DIR$/APP/www/app/components/pages/loginController.js" />
+        <option value="$PROJECT_DIR$/client/app/components/pages/loginController.js" />
+        <option value="$PROJECT_DIR$/client/app/shared/header/headerView.html" />
+        <option value="$PROJECT_DIR$/client/app/app.controller.js" />
+        <option value="$PROJECT_DIR$/APP/www/app/app.service.js" />
       </list>
     </option>
   </component>
@@ -147,6 +201,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -193,7 +248,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -212,6 +267,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shared" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="energenie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="energenie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shared" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="header" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -241,13 +326,92 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="energenie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="energenie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="APP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="energenie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="energenie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="APP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="energenie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="energenie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="APP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="energenie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="energenie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="APP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/extincia" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
   </component>
@@ -337,9 +501,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -361,6 +522,9 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
@@ -406,20 +570,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="energenie" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method />
-    </configuration>
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -438,6 +588,20 @@
       <option name="TEST_TYPE" value="TEST_SCRIPT" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="energenie" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
       <method />
     </configuration>
     <list size="0" />
@@ -472,13 +636,13 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3382508" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -587,24 +751,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/components/pages/user_editController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33258173" vertical-offset="980" max-vertical-offset="1875">
-          <caret line="85" column="20" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/data/sockets.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="315">
           <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/components/pages/user_editView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.625" vertical-offset="1665" max-vertical-offset="3255">
-          <caret line="136" column="46" selection-start-line="77" selection-start-column="40" selection-end-line="136" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -615,37 +765,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/components/pages/user_profileView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58597285" vertical-offset="727" max-vertical-offset="3390">
-          <caret line="83" column="52" selection-start-line="83" selection-start-column="52" selection-end-line="83" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/shared/header/headerView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="495">
-          <caret line="18" column="101" selection-start-line="18" selection-start-column="101" selection-end-line="18" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/shared/main_sidebar/main_sidebarView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="645">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/app.directive.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79216355" vertical-offset="3615" max-vertical-offset="20340">
-          <caret line="272" column="25" selection-start-line="272" selection-start-column="25" selection-end-line="272" selection-end-column="25" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/app/app.oc_lazy_load.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.725" vertical-offset="4890" max-vertical-offset="5490">
@@ -653,39 +772,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/shared/menu_top/menu_topView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="180">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/app/app.factory.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2040">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/components/pages/loginView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.382387" vertical-offset="0" max-vertical-offset="863">
-          <caret line="22" column="31" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/components/pages/loginController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65798044" vertical-offset="609" max-vertical-offset="1530">
-          <caret line="81" column="20" selection-start-line="81" selection-start-column="20" selection-end-line="92" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2019544" vertical-offset="99" max-vertical-offset="2055">
-          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -710,84 +800,275 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/app.controller.js">
+    <entry file="file://$PROJECT_DIR$/client/app/components/pages/socket_editView.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5073281" vertical-offset="0" max-vertical-offset="1245">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/components/pages/raspberry_detailsView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.25" vertical-offset="1473" max-vertical-offset="2775">
-          <caret line="113" column="39" selection-start-line="113" selection-start-column="39" selection-end-line="113" selection-end-column="39" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#li#1;n#ul#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/components/pages/raspberry_listView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.72575253" vertical-offset="414" max-vertical-offset="1335">
-          <caret line="71" column="97" selection-start-line="71" selection-start-column="97" selection-end-line="71" selection-end-column="97" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/components/pages/raspberryController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1791531" vertical-offset="120" max-vertical-offset="2895">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="30" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/components/pages/raspberry_editController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6840391" vertical-offset="0" max-vertical-offset="921">
-          <caret line="42" column="13" selection-start-line="13" selection-start-column="12" selection-end-line="42" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/components/pages/raspberry_editView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1125">
-          <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/app.states.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1929" max-vertical-offset="3495">
-          <caret line="166" column="116" selection-start-line="166" selection-start-column="116" selection-end-line="166" selection-end-column="116" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/app.service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="4050">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        <state vertical-scroll-proportion="-14.375" vertical-offset="180" max-vertical-offset="1395">
+          <caret line="35" column="93" selection-start-line="35" selection-start-column="93" selection-end-line="35" selection-end-column="93" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/app/components/pages/socket_editController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.5700326" vertical-offset="0" max-vertical-offset="921">
+          <caret line="35" column="81" selection-start-line="35" selection-start-column="81" selection-end-line="35" selection-end-column="81" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/components/pages/socket_editView.html">
+    <entry file="file://$PROJECT_DIR$/client/app/components/pages/raspberry_editView.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5090498" vertical-offset="0" max-vertical-offset="1395">
-          <caret line="30" column="70" selection-start-line="30" selection-start-column="70" selection-end-line="30" selection-end-column="70" />
+        <state vertical-scroll-proportion="0.30542988" vertical-offset="0" max-vertical-offset="1125">
+          <caret line="18" column="61" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/components/pages/raspberry_listView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-25.0" vertical-offset="0" max-vertical-offset="1335">
+          <caret line="40" column="93" selection-start-line="40" selection-start-column="93" selection-end-line="40" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/app.directive.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7929515" vertical-offset="3315" max-vertical-offset="20295">
+          <caret line="272" column="25" selection-start-line="272" selection-start-column="25" selection-end-line="272" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="99" max-vertical-offset="2055">
+          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APP/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.050167225" vertical-offset="0" max-vertical-offset="897">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APP/ionic.project">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2944573" vertical-offset="0" max-vertical-offset="866">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APP/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39513326" vertical-offset="34" max-vertical-offset="1200">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APP/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.3821871" vertical-offset="2518" max-vertical-offset="3405">
+          <caret line="27" column="25" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APP/www/app/app.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.78015786" vertical-offset="403" max-vertical-offset="1290">
+          <caret line="73" column="40" selection-start-line="73" selection-start-column="38" selection-end-line="73" selection-end-column="40" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APP/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1320">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1461058768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APP/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33256084" vertical-offset="73" max-vertical-offset="1635">
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/shared/menu_top/menu_topView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10033445" vertical-offset="0" max-vertical-offset="897">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/components/pages/user_profileController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/components/pages/user_profileView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4347826" vertical-offset="0" max-vertical-offset="897">
+          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/components/pages/raspberry_editController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21172638" vertical-offset="0" max-vertical-offset="921">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="26" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/components/pages/user_editController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/components/pages/user_editView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45701358" vertical-offset="16" max-vertical-offset="1215">
+          <caret line="28" column="55" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/app.states.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2439" max-vertical-offset="3435">
+          <caret line="215" column="25" selection-start-line="215" selection-start-column="25" selection-end-line="215" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/components/pages/raspberryController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.65388954" vertical-offset="485" max-vertical-offset="3165">
+          <caret line="71" column="69" selection-start-line="71" selection-start-column="69" selection-end-line="71" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/components/pages/raspberry_detailsView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08361204" vertical-offset="0" max-vertical-offset="3000">
+          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APP/www/app/components/pages/raspberry_detailsView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08361204" vertical-offset="0" max-vertical-offset="3000">
+          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APP/www/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.5472313" vertical-offset="0" max-vertical-offset="1980">
+          <caret line="97" column="44" selection-start-line="97" selection-start-column="44" selection-end-line="97" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APP/www/app/app.states.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3435">
+          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/components/pages/loginView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36789298" vertical-offset="0" max-vertical-offset="897">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/components/pages/loginController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3583062" vertical-offset="0" max-vertical-offset="1590">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/app.service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.4030838" vertical-offset="270" max-vertical-offset="4560">
+          <caret line="224" column="30" selection-start-line="224" selection-start-column="30" selection-end-line="224" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/app.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6514658" vertical-offset="0" max-vertical-offset="1320">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/shared/header/headerView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31772575" vertical-offset="0" max-vertical-offset="897">
+          <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/shared/main_sidebar/main_sidebarView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08484163" vertical-offset="0" max-vertical-offset="884">
+          <caret line="5" column="60" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APP/www/app/components/pages/loginController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5700326" vertical-offset="0" max-vertical-offset="1590">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APP/www/app/app.service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19823788" vertical-offset="0" max-vertical-offset="4560">
+          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
           <folding />
         </state>
       </provider>

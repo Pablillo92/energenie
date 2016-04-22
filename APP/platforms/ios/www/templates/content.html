@@ -1,0 +1,22 @@
+<ion-view cache-view="true">
+	<ion-nav-title> {{page.title }} </ion-nav-title>
+	<ion-content>
+		<div class="hero">
+
+		</div>
+		<!--<div class="im-wrapper" id="contenido" ng-bind-html="content">
+		</div>-->
+		<div ng-if="submenu.length>1">
+			<ion-slide-box scroll="false" ion-slide-tabs show-pager="false" >
+				<ion-slide ng-repeat="subm in submenu" ion-slide-tab-label="{{subm.title}}" pos="{{$index}}">
+					<!--<ion-scroll scrollbar-y="false" scrollbar-x="false">-->
+						<div class="im-wrapper" id="contenido" ng-bind-html="content[$index]"></div>
+					<!--</ion-scroll>-->
+				</ion-slide>
+			</ion-slide-box>
+		</div>
+		<div ng-if="!submenu" class="im-wrapper" id="contenido" ng-bind-html="content">
+			
+		</div>
+	</ion-content>
+</ion-view>
