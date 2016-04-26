@@ -1,5 +1,5 @@
-var PATHFEED="http://192.168.2.24/energenie/backend";
-//var PATHFEED="http://localhost/energenie/backend";
+//var PATHFEED="http://192.168.2.24/energenie/backend";
+var PATHFEED="http://localhost/energenie/backend";
 PATHS = {
     user: PATHFEED + "/api/user/",
     userRegister: PATHFEED + "/api/register/",

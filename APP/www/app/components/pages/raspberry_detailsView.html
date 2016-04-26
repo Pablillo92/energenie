@@ -1,156 +1,201 @@
 <div id="page_content">
     <div id="page_content_inner">
-        <div class="uk-grid" data-uk-grid-margin data-uk-grid-match id="raspberry_details">
-            <div class="uk-width-large-7-10">
-                <div class="md-card">
-                    <div class="user_heading">
-                        <div class="user_heading_content">
-                            <h2 class="heading_b uk-margin-bottom">
-                                <span class="uk-text-truncate">ID-{{raspberry_details.id}}</span>
-                                <span class="sub-heading">{{raspberry_details.name}}</span>
-                            </h2>
+
+		<div class="uk-grid uk-margin-medium-top uk-margin-large-bottom" data-uk-grid-margin>
+            <div class="uk-width-large-1-2" ng-repeat="socket in raspberry_details.sockets">
+                <div class="uk-width-large-1-1">
+                    <div class="md-card">
+                        <div class="md-card-content">
+                            <h3 class="heading_a">{{socket.nombre}}</h3>
+							<div class="uk-grid uk-grid-small" data-uk-grid-margin="">
+
+                                    <a class="md-btn md-btn-success md-btn-wave-light waves-effect waves-button waves-light">Encender</a>
+
+                                    <a class="md-btn md-btn-danger md-btn-wave-light waves-effect waves-button waves-light">Apagar</a>
+
+                                    <a href="javascript:void(0)" class="md-card-head-menu" ng-show="socket.active==1">
+										<i class="material-icons uk-text-warning uk-text-large">&#xE90F;</i>
+									</a>
+
+                            </div>
                         </div>
-                        <a class="md-fab md-fab-small md-fab-accent" ui-sref="restricted.pages.raspberry_edit({ raspberryId: raspberry_details.id })">
-                            <i class="material-icons">&#xE150;</i>
-                        </a>
                     </div>
-                    <div class="user_content">
-                        <ul id="raspberry_detail_tabs" class="uk-tab" data-uk-tab="{connect:'#raspberry_detail_tabs_content', animation:'slide-horizontal'}" data-uk-sticky="{ top: 48, media: 960 }">
-                            <li class="uk-active"><a href="#">Info</a></li>
-                            <li><a href="#">Sockets</a></li>
-                            <li><a href="#">Usuarios</a></li>
-                        </ul>
-                        <ul id="raspberry_detail_tabs_content" class="uk-switcher uk-margin">
-                            <li>
-                                <div class="uk-grid uk-margin-medium-top uk-margin-large-bottom" data-uk-grid-margin>
-                                    <div class="uk-width-large-1-2">
-                                        <h4 class="heading_c uk-margin-small-bottom">Detalles Raspberry</h4>
-                                        <ul class="md-list md-list-addon">
-                                            <li>
-                                                <div class="md-list-addon-element">
-                                                    <i class="md-list-addon-icon material-icons">&#xE0DA;</i>
-                                                </div>
-                                                <div class="md-list-content">
-                                                    <span class="md-list-heading">{{raspberry_details.id}}</span>
-                                                    <span class="uk-text-small uk-text-muted">Id</span>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="md-list-addon-element">
-                                                    <i class="md-list-addon-icon material-icons">&#xE54E;</i>
-                                                </div>
-                                                <div class="md-list-content">
-                                                    <span class="md-list-heading">{{raspberry_details.nombre}}</span>
-                                                    <span class="uk-text-small uk-text-muted">Nombre</span>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="md-list-addon-element">
-													<i class="md-list-addon-icon material-icons">&#xE62B;</i>
-                                                </div>
-                                                <div class="md-list-content">
-                                                    <span class="md-list-heading">{{raspberry_details.ip}}</span>
-                                                    <span class="uk-text-small uk-text-muted">IP</span>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
+                </div>
+            </div>
+
+            <div class="md-fab-wrapper md-fab-in-card" ng-show="raspberry_details.sockets.length<4">
+                <a class="md-fab md-fab-accent" href="#new_socket" data-uk-modal="{ center:true }">
+                    <i class="material-icons">&#xE145;</i>
+                </a>
+            </div>
+
+        </div>
+
+
+		<div class="md-card">
+            <div class="md-card-toolbar">
+                <div class="md-card-toolbar-actions">
+                    <card-toggle></card-toggle>
+                </div>
+                <h3 class="md-card-toolbar-heading-text">
+                    Detalles
+                </h3>
+            </div>
+            <div class="md-card-content">
+
+                <div class="uk-grid" data-uk-grid-margin data-uk-grid-match id="raspberry_details">
+                    <div class="uk-width-large-7-10">
+                        <div class="md-card">
+                            <div class="user_heading">
+                                <div class="user_heading_content">
+                                    <h2 class="heading_b uk-margin-bottom">
+                                        <span class="uk-text-truncate">ID-{{raspberry_details.id}}</span>
+                                        <span class="sub-heading">{{raspberry_details.name}}</span>
+                                    </h2>
                                 </div>
-                            </li>
-                            <li>
-								<div class="uk-grid uk-margin-medium-top uk-margin-large-bottom" data-uk-grid-margin>
-                                    <div class="uk-width-large-1-2" ng-repeat="socket in raspberry_details.sockets">
-										<div class="uk-width-large-1-1">
-                                            <div class="md-card">
-                                                <div class="md-card-content"  style="height: 300px;">
-                                                    <ul class="md-list md-list-addon">
-                                                        <li>
-                                                            <div class="md-list-addon-element">
-                                                                <i class="md-list-addon-icon material-icons">&#xE0DA;</i>
+                                <a class="md-fab md-fab-small md-fab-accent" ui-sref="restricted.pages.raspberry_edit({ raspberryId: raspberry_details.id })">
+                                    <i class="material-icons">&#xE150;</i>
+                                </a>
+                            </div>
+                            <div class="user_content">
+                                <ul id="raspberry_detail_tabs" class="uk-tab" data-uk-tab="{connect:'#raspberry_detail_tabs_content', animation:'slide-horizontal'}" data-uk-sticky="{ top: 48, media: 960 }">
+                                    <li class="uk-active"><a href="#">Info</a></li>
+                                    <li><a href="#">Sockets</a></li>
+                                    <li><a href="#">Usuarios</a></li>
+                                </ul>
+                                <ul id="raspberry_detail_tabs_content" class="uk-switcher uk-margin">
+                                    <li>
+                                        <div class="uk-grid uk-margin-medium-top uk-margin-large-bottom" data-uk-grid-margin>
+                                            <div class="uk-width-large-1-2">
+                                                <h4 class="heading_c uk-margin-small-bottom">Detalles Raspberry</h4>
+                                                <ul class="md-list md-list-addon">
+                                                    <li>
+                                                        <div class="md-list-addon-element">
+                                                            <i class="md-list-addon-icon material-icons">&#xE0DA;</i>
+                                                        </div>
+                                                        <div class="md-list-content">
+                                                            <span class="md-list-heading">{{raspberry_details.id}}</span>
+                                                            <span class="uk-text-small uk-text-muted">Id</span>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="md-list-addon-element">
+                                                            <i class="md-list-addon-icon material-icons">&#xE54E;</i>
+                                                        </div>
+                                                        <div class="md-list-content">
+                                                            <span class="md-list-heading">{{raspberry_details.nombre}}</span>
+                                                            <span class="uk-text-small uk-text-muted">Nombre</span>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="md-list-addon-element">
+                                                            <i class="md-list-addon-icon material-icons">&#xE62B;</i>
+                                                        </div>
+                                                        <div class="md-list-content">
+                                                            <span class="md-list-heading">{{raspberry_details.ip}}</span>
+                                                            <span class="uk-text-small uk-text-muted">IP</span>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="uk-grid uk-margin-medium-top uk-margin-large-bottom" data-uk-grid-margin>
+                                            <div class="uk-width-large-1-2" ng-repeat="socket in raspberry_details.sockets">
+                                                <div class="uk-width-large-1-1">
+                                                    <div class="md-card">
+                                                        <div class="md-card-content"  style="height: 300px;">
+                                                            <ul class="md-list md-list-addon">
+                                                                <li>
+                                                                    <div class="md-list-addon-element">
+                                                                        <i class="md-list-addon-icon material-icons">&#xE0DA;</i>
+                                                                    </div>
+                                                                    <div class="md-list-content">
+                                                                        <span class="md-list-heading">{{socket.id}}</span>
+                                                                        <span class="uk-text-small uk-text-muted">Id</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="md-list-addon-element">
+                                                                        <i class="md-list-addon-icon material-icons">&#xE54E;</i>
+                                                                    </div>
+                                                                    <div class="md-list-content">
+                                                                        <span class="md-list-heading">{{socket.nombre}}</span>
+                                                                        <span class="uk-text-small uk-text-muted">Nombre</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="md-list-addon-element">
+                                                                        <i class="md-list-addon-icon material-icons">&#xE863;</i>
+                                                                    </div>
+                                                                    <div class="md-list-content">
+                                                                        <span class="md-list-heading">{{socket.state}}</span>
+                                                                        <span class="uk-text-small uk-text-muted">Estado</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="md-list-addon-element">
+                                                                        <i class="md-list-addon-icon material-icons">&#xE42E;</i>
+                                                                    </div>
+                                                                    <div class="md-list-content">
+                                                                        <span class="md-list-heading">{{socket.active}}</span>
+                                                                        <span class="uk-text-small uk-text-muted">Modo</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="md-list-addon-element">
+                                                                        <i class="md-list-addon-icon material-icons">&#xE8C2;</i>
+                                                                    </div>
+                                                                    <div class="md-list-content">
+                                                                        <span class="md-list-heading">{{socket.rel}}</span>
+                                                                        <span class="uk-text-small uk-text-muted">Socket</span>
+                                                                    </div>
+                                                                </li>
+                                                            </ul>
+                                                            <div class="md-fab-wrapper md-fab-in-card">
+                                                                <a class="md-fab md-fab-small md-fab-accent" ui-sref="restricted.pages.socket_edit({ socketId: socket.id })">
+                                                                    <i class="material-icons">&#xE150;</i>
+                                                                </a>
                                                             </div>
-                                                            <div class="md-list-content">
-                                                                <span class="md-list-heading">{{socket.id}}</span>
-                                                                <span class="uk-text-small uk-text-muted">Id</span>
-                                                            </div>
-                                                        </li>
-                                                        <li>
-                                                            <div class="md-list-addon-element">
-                                                                <i class="md-list-addon-icon material-icons">&#xE54E;</i>
-                                                            </div>
-                                                            <div class="md-list-content">
-                                                                <span class="md-list-heading">{{socket.nombre}}</span>
-                                                                <span class="uk-text-small uk-text-muted">Nombre</span>
-                                                            </div>
-                                                        </li>
-                                                        <li>
-                                                            <div class="md-list-addon-element">
-                                                                <i class="md-list-addon-icon material-icons">&#xE863;</i>
-                                                            </div>
-                                                            <div class="md-list-content">
-                                                                <span class="md-list-heading">{{socket.state}}</span>
-                                                                <span class="uk-text-small uk-text-muted">Estado</span>
-                                                            </div>
-                                                        </li>
-                                                        <li>
-                                                            <div class="md-list-addon-element">
-                                                                <i class="md-list-addon-icon material-icons">&#xE42E;</i>
-                                                            </div>
-                                                            <div class="md-list-content">
-                                                                <span class="md-list-heading">{{socket.active}}</span>
-                                                                <span class="uk-text-small uk-text-muted">Modo</span>
-                                                            </div>
-                                                        </li>
-                                                        <li>
-                                                            <div class="md-list-addon-element">
-                                                                <i class="md-list-addon-icon material-icons">&#xE8C2;</i>
-                                                            </div>
-                                                            <div class="md-list-content">
-                                                                <span class="md-list-heading">{{socket.rel}}</span>
-                                                                <span class="uk-text-small uk-text-muted">Socket</span>
-                                                            </div>
-                                                        </li>
-                                                    </ul>
-                                                    <div class="md-fab-wrapper md-fab-in-card">
-                                                        <a class="md-fab md-fab-small md-fab-accent" ui-sref="restricted.pages.socket_edit({ socketId: socket.id })">
-                                                            <i class="material-icons">&#xE150;</i>
-                                                        </a>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-										</div>
-									</div>
 
-									<div class="md-fab-wrapper md-fab-in-card" ng-show="raspberry_details.sockets.length<4">
-                                        <a class="md-fab md-fab-accent" href="#new_socket" data-uk-modal="{ center:true }">
-                                            <i class="material-icons">&#xE145;</i>
-                                        </a>
-                                    </div>
+                                            <div class="md-fab-wrapper md-fab-in-card" ng-show="raspberry_details.sockets.length<4">
+                                                <a class="md-fab md-fab-accent" href="#new_socket" data-uk-modal="{ center:true }">
+                                                    <i class="material-icons">&#xE145;</i>
+                                                </a>
+                                            </div>
 
-                                </div>
-
-                            </li>
-                            <li>
-                                <ul class="md-list md-list-addon uk-margin-bottom">
-                                    <li ng-repeat="user in raspberry_details.users">
-                                        <div class="md-list-addon-element">
-                                            <img class="md-user-image md-list-addon-avatar" ng-src="{{user.img}}" alt=""/>
                                         </div>
-                                        <div class="md-list-content">
-                                            <span class="md-list-heading">{{user.name}}</span>
-                                            <span class="uk-text-small uk-text-muted">{{user.email}}</span>
-                                        </div>
+
                                     </li>
-									<li></li>
+                                    <li>
+                                        <ul class="md-list md-list-addon uk-margin-bottom">
+                                            <li ng-repeat="user in raspberry_details.users">
+                                                <div class="md-list-addon-element">
+                                                    <img class="md-user-image md-list-addon-avatar" ng-src="{{user.img}}" alt=""/>
+                                                </div>
+                                                <div class="md-list-content">
+                                                    <span class="md-list-heading">{{user.name}}</span>
+                                                    <span class="uk-text-small uk-text-muted">{{user.email}}</span>
+                                                </div>
+                                            </li>
+                                            <li></li>
+                                        </ul>
+
+                                        <div class="md-fab-wrapper md-fab-in-card">
+                                            <a class="md-fab md-fab-accent" href="#new_user" data-uk-modal="{ center:true }">
+                                                <i class="material-icons">&#xE145;</i>
+                                            </a>
+                                        </div>
+
+                                    </li>
                                 </ul>
-
-								<div class="md-fab-wrapper md-fab-in-card">
-                                    <a class="md-fab md-fab-accent" href="#new_user" data-uk-modal="{ center:true }">
-                                        <i class="material-icons">&#xE145;</i>
-                                    </a>
-                                </div>
-
-                            </li>
-                        </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
