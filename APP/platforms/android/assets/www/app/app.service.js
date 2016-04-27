@@ -1,5 +1,10 @@
 var PATHFEED="http://192.168.2.24/energenie/backend";
 //var PATHFEED="http://localhost/energenie/backend";
+
+if (!!localStorage.dev_url) {
+	PATHFEED = localStorage.dev_url;
+}
+
 PATHS = {
     user: PATHFEED + "/api/user/",
     userRegister: PATHFEED + "/api/register/",

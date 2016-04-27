@@ -2,7 +2,7 @@
     <div id="page_content_inner">
 
 		<div class="uk-grid uk-margin-medium-top uk-margin-large-bottom" data-uk-grid-margin>
-            <div class="uk-width-large-1-1" ng-repeat="socket in raspberry_details.sockets">
+            <div class="uk-width-large-1-2" ng-repeat="socket in raspberry_details.sockets">
 
                 <div class="md-card">
                     <div class="md-card-content">
@@ -13,7 +13,7 @@
 
                                 <a ng-click="off(socket)" class="md-btn md-btn-danger md-btn-wave-light waves-effect waves-button waves-light">Apagar</a>
 
-                                <a href="javascript:void(0)" class="md-card-head-menu" ng-show="socket.active==1">
+                                <a href="javascript:void(0)" class="md-card-head-menu socket-active" ng-show="socket.active==1">
                                     <i class="material-icons uk-text-warning uk-text-large">&#xE90F;</i>
                                 </a>
 
@@ -21,12 +21,6 @@
                     </div>
                 </div>
 
-            </div>
-
-            <div class="md-fab-wrapper md-fab-in-card" ng-show="raspberry_details.sockets.length<4">
-                <a class="md-fab md-fab-accent" href="#new_socket" data-uk-modal="{ center:true }">
-                    <i class="material-icons">&#xE145;</i>
-                </a>
             </div>
 
         </div>
@@ -176,7 +170,7 @@
                                         <ul class="md-list md-list-addon uk-margin-bottom">
                                             <li ng-repeat="user in raspberry_details.users">
                                                 <div class="md-list-addon-element">
-                                                    <img class="md-user-image md-list-addon-avatar" ng-src="{{user.img}}" alt=""/>
+                                                    <img class="md-user-image md-list-addon-avatar" src="assets/img/avatars/user.png" alt=""/>
                                                 </div>
                                                 <div class="md-list-content">
                                                     <span class="md-list-heading">{{user.name}}</span>

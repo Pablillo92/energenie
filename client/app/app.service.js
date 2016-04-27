@@ -1,4 +1,10 @@
-var PATHFEED="http://localhost/energenie/backend";
+var PATHFEED="http://192.168.2.24/energenie/backend";
+//var PATHFEED="http://localhost/energenie/backend";
+
+if (!!localStorage.dev_url) {
+	PATHFEED = localStorage.dev_url;
+}
+
 PATHS = {
     user: PATHFEED + "/api/user/",
     userRegister: PATHFEED + "/api/register/",
@@ -174,6 +180,23 @@ altairApp
                 method  : 'POST',
                 url     : PATHS.editSocket,
                 data    : socket
+            }).success(function(data) {
+                deferred.resolve(data);
+            }).error(function (data) {
+                deferred.reject(data);
+            });
+            return deferred.promise;
+		},
+        /**
+		 * enciende o apaga un socket
+		 */
+		action: function (ip, socket, active) {
+            var url="http://"+ip+"/energenie/action/";
+			var deferred = $q.defer();
+            $http({
+                method  : 'POST',
+                url     : url,
+                data    : {socket:socket,active:active}
             }).success(function(data) {
                 deferred.resolve(data);
             }).error(function (data) {
