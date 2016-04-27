@@ -60,6 +60,19 @@ angular
                 }
             };
 
+            $scope.on=function(socket){
+                srvSockets.action($scope.raspberry_details.ip, socket.rel, 1).then(function(data){
+                    socket.active=1;
+                });
+
+            };
+
+            $scope.off=function(socket){
+                srvSockets.action($scope.raspberry_details.ip, socket.rel, 0).then(function(data){
+                    socket.active=0;
+                });
+            };
+
             $scope.new_user={};
             $scope.addUser=function(){
                 $scope.new_user.raspberry=$stateParams.raspberryId;
