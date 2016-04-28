@@ -1348,4 +1348,28 @@ altairApp
             }
         }
     ])
+    .directive('inputimage', function () {
+      return {
+            scope:{
+                inputimage:"="
+            },
+         link: function (scope, elem, attrs) {
+             $(elem).on("change",function(){
+                scope.$parent.uploadPhoto($(elem).prop('files')[0]);
+             });
+         }
+      };
+   })
+    .directive('user', function () {
+      return {
+            scope:{
+                user:"="
+            },
+         link: function (scope, elem, attrs) {
+         		elem.bind('error',function(){
+         			angular.element(elem).attr('src',"assets/img/avatars/user.png");
+         		})
+         }
+      };
+   })
 ;

@@ -170,7 +170,7 @@
                                         <ul class="md-list md-list-addon uk-margin-bottom">
                                             <li ng-repeat="user in raspberry_details.users">
                                                 <div class="md-list-addon-element">
-                                                    <img class="md-user-image md-list-addon-avatar" src="assets/img/avatars/user.png" alt=""/>
+                                                    <img class="md-user-image md-list-addon-avatar" ng-src="{{ user.avatar }}" user alt=""/>
                                                 </div>
                                                 <div class="md-list-content">
                                                     <span class="md-list-heading">{{user.name}}</span>

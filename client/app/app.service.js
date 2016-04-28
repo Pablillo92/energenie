@@ -20,7 +20,8 @@ PATHS = {
     delSocket: PATHFEED + "/api/delSocket/",
     editSocket: PATHFEED + "/api/editSocket/",
     getUsers: PATHFEED + "/api/getUsers/",
-    addSocket: PATHFEED + "/api/addSocket/"
+    addSocket: PATHFEED + "/api/addSocket/",
+    setPhoto: PATHFEED + "/api/setPhoto/"
 };
 
 altairApp
@@ -255,6 +256,30 @@ altairApp
                 deferred.resolve(data);
             }).error(function (data) {
                 deferred.reject(data);
+            });
+            return deferred.promise;
+		},
+        /**
+		 * añade foto a un usuario
+		 */
+		setPhoto: function (form_data) {
+			var deferred = $q.defer();
+            $.ajax({
+                url: PATHS.setPhoto,
+                cache: false,
+                headers: {
+                    'Authorization': localStorage.token
+                },
+                contentType: false,
+                processData: false,
+                data: form_data,
+                type: "POST",
+                success: function (data) {
+                    deferred.resolve(data);
+                },
+                always: function (data) {
+                    deferred.reject(data);
+                }
             });
             return deferred.promise;
 		}
