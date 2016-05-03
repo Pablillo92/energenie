@@ -7,14 +7,14 @@
                         <div class="user_heading" data-uk-sticky="{ top: 48, media: 960 }">
                             <div class="user_heading_avatar fileinput fileinput-new" data-provides="fileinput">
                                 <div class="fileinput-new thumbnail">
-                                    <img ng-src="assets/img/avatars/user.png" alt="user avatar"/>
+                                    <img ng-src="{{user_data.avatar}}" user alt="user avatar"/>
                                 </div>
                                 <div class="fileinput-preview fileinput-exists thumbnail"></div>
                                 <div class="user_avatar_controls">
                                         <span class="btn-file">
                                             <span class="fileinput-new"><i class="material-icons">&#xE2C6;</i></span>
                                             <span class="fileinput-exists"><i class="material-icons">&#xE86A;</i></span>
-                                            <input type="file" name="user_edit_avatar_control" id="user_edit_avatar_control">
+                                            <input type="file" name="user_edit_avatar_control" id="user_edit_avatar_control" inputimage>
                                         </span>
                                     <a href="#" class="btn-file fileinput-exists" data-dismiss="fileinput"><i class="material-icons">&#xE5CD;</i></a>
                                 </div>

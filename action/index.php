@@ -1,4 +1,5 @@
 <?php
+header("Access-Control-Allow-Origin: *");
 header('Content-Type: application/json');
 
 $headers=getallheaders();
@@ -18,8 +19,8 @@ if(isset($headers['Authorization'])){
 			$s="on";
 		}
 		
-		$respuesta=exec("sudo ../script/s".$socket.$s);		
-		echo '{"status":"ok","msg":"Acción enviada al socket","response":"'.$respuesta.'"}';
+		exec("sudo ../script/s".$socket.$s,$respuesta);	
+		echo '{"status":"ok","msg":"Acción enviada al socket","response":"'.$respuesta[0].'"}';
 	}
 }else{
 	echo '{"status":"fail","msg":"Fallo en las credenciales"}';

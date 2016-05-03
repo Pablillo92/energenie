@@ -96,6 +96,14 @@ function set(Raspberry $obj, $idold) {
 	return $this->bd->getNumeroFilasAfectadas();
 }
 
+function reload($ip, $idold) {
+	$sql = "update " . $this->nombreTabla . " set " .
+		"ip='" . $ip . "' " .
+		"where id='$idold' ";
+	$this->bd->setConsulta($sql);
+	return $this->bd->getNumeroFilasAfectadas();
+}
+
 function insert(Raspberry $obj) {
 	$sql = "insert into " . $this->nombreTabla . " values(" .
 		"'null', " .

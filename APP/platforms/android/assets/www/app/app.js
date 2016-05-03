@@ -4,6 +4,8 @@
 ;"use strict";
 
 var altairApp = angular.module('altairApp', [
+    'ionic',
+    'ionic-material',
     'ui.router',
     'oc.lazyLoad',
     'ngSanitize',

@@ -1,4 +1,4 @@
-var PATHFEED="http://192.168.2.24/energenie/backend";
+var PATHFEED="http://pablo.x10host.com/api";
 //var PATHFEED="http://localhost/energenie/backend";
 
 if (!!localStorage.dev_url) {
@@ -20,17 +20,29 @@ PATHS = {
     delSocket: PATHFEED + "/api/delSocket/",
     editSocket: PATHFEED + "/api/editSocket/",
     getUsers: PATHFEED + "/api/getUsers/",
-    addSocket: PATHFEED + "/api/addSocket/"
+    addSocket: PATHFEED + "/api/addSocket/",
+    setPhoto: PATHFEED + "/api/setPhoto/"
+};
+
+var loadingON = function($ionicLoading){
+ $ionicLoading.show({
+   template:'<div class="loader"><svg class="circular"><circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"/></svg></div>'
+ });
+};
+
+var loadingOFF = function($ionicLoading){
+ $ionicLoading.hide();
 };
 
 altairApp
 // Servicio para el manejo de usuarios del sistema
-.factory('user', function ($http, $q) {
+.factory('user', function ($http, $q, $ionicLoading) {
 	var resource={
         /**
 		 * Registra al usuario
 		 */
 		register: function (user) {
+            loadingON($ionicLoading);
 			var deferred = $q.defer();
             $http({
                 method  : 'POST',
@@ -38,8 +50,10 @@ altairApp
                 data    : user
             }).success(function(data) {
                 deferred.resolve(data);
+                loadingOFF($ionicLoading);
             }).error(function (data) {
                 deferred.reject(data);
+                loadingOFF($ionicLoading);
             });
             return deferred.promise;
 		},
@@ -47,6 +61,7 @@ altairApp
 		 * loguea al usuario
 		 */
 		login: function (user) {
+            loadingON($ionicLoading);
 			var deferred = $q.defer();
             $http({
                 method  : 'POST',
@@ -58,8 +73,10 @@ altairApp
                     localStorage.token=$http.defaults.headers.common.Authorization;
                 }
                 deferred.resolve(data);
+                loadingOFF($ionicLoading);
             }).error(function (data) {
                 deferred.reject(data);
+                loadingOFF($ionicLoading);
             });
             return deferred.promise;
 		}
@@ -67,12 +84,13 @@ altairApp
 	return resource;
 })
 // Servicio para el manejo de raspberrys del sistema
-.factory('srvRaspberry', function ($http, $q) {
+.factory('srvRaspberry', function ($http, $q, $ionicLoading) {
 	var resource={
         /**
 		 * inserta una raspberry
 		 */
 		add: function (raspberry) {
+            loadingON($ionicLoading);
 			var deferred = $q.defer();
             $http({
                 method  : 'POST',
@@ -80,8 +98,10 @@ altairApp
                 data    : raspberry
             }).success(function(data) {
                 deferred.resolve(data);
+                loadingOFF($ionicLoading);
             }).error(function (data) {
                 deferred.reject(data);
+                loadingOFF($ionicLoading);
             });
             return deferred.promise;
 		},
@@ -89,6 +109,7 @@ altairApp
 		 * borra una raspberry
 		 */
 		del: function (raspberry) {
+            loadingON($ionicLoading);
 			var deferred = $q.defer();
             $http({
                 method  : 'POST',
@@ -96,8 +117,10 @@ altairApp
                 data    : raspberry
             }).success(function(data) {
                 deferred.resolve(data);
+                loadingOFF($ionicLoading);
             }).error(function (data) {
                 deferred.reject(data);
+                loadingOFF($ionicLoading);
             });
             return deferred.promise;
 		},
@@ -105,6 +128,7 @@ altairApp
 		 * edita una raspberry
 		 */
 		edit: function (raspberry) {
+            loadingON($ionicLoading);
 			var deferred = $q.defer();
             $http({
                 method  : 'POST',
@@ -112,8 +136,10 @@ altairApp
                 data    : raspberry
             }).success(function(data) {
                 deferred.resolve(data);
+                loadingOFF($ionicLoading);
             }).error(function (data) {
                 deferred.reject(data);
+                loadingOFF($ionicLoading);
             });
             return deferred.promise;
 		}
@@ -121,12 +147,13 @@ altairApp
 	return resource;
 })
 // Servicio para el manejo de socket del sistema
-.factory('srvSockets', function ($http, $q) {
+.factory('srvSockets', function ($http, $q, $ionicLoading) {
 	var resource={
         /**
 		 * trae los sockets
 		 */
 		get: function (raspberry) {
+            loadingON($ionicLoading);
 			var deferred = $q.defer();
             $http({
                 method  : 'POST',
@@ -134,8 +161,10 @@ altairApp
                 data    : {id:raspberry}
             }).success(function(data) {
                 deferred.resolve(data);
+                loadingOFF($ionicLoading);
             }).error(function (data) {
                 deferred.reject(data);
+                loadingOFF($ionicLoading);
             });
             return deferred.promise;
 		},
@@ -143,6 +172,7 @@ altairApp
 		 * añade un socket
 		 */
 		add: function (socket) {
+            loadingON($ionicLoading);
 			var deferred = $q.defer();
             $http({
                 method  : 'POST',
@@ -150,8 +180,10 @@ altairApp
                 data    : socket
             }).success(function(data) {
                 deferred.resolve(data);
+                loadingOFF($ionicLoading);
             }).error(function (data) {
                 deferred.reject(data);
+                loadingOFF($ionicLoading);
             });
             return deferred.promise;
 		},
@@ -159,6 +191,7 @@ altairApp
 		 * borra un socket
 		 */
 		del: function (socket) {
+            loadingON($ionicLoading);
 			var deferred = $q.defer();
             $http({
                 method  : 'POST',
@@ -166,8 +199,10 @@ altairApp
                 data    : socket
             }).success(function(data) {
                 deferred.resolve(data);
+                loadingOFF($ionicLoading);
             }).error(function (data) {
                 deferred.reject(data);
+                loadingOFF($ionicLoading);
             });
             return deferred.promise;
 		},
@@ -175,6 +210,7 @@ altairApp
 		 * edita un socket
 		 */
 		edit: function (socket) {
+            loadingON($ionicLoading);
 			var deferred = $q.defer();
             $http({
                 method  : 'POST',
@@ -182,8 +218,10 @@ altairApp
                 data    : socket
             }).success(function(data) {
                 deferred.resolve(data);
+                loadingOFF($ionicLoading);
             }).error(function (data) {
                 deferred.reject(data);
+                loadingOFF($ionicLoading);
             });
             return deferred.promise;
 		},
@@ -191,6 +229,7 @@ altairApp
 		 * enciende o apaga un socket
 		 */
 		action: function (ip, socket, active) {
+            loadingON($ionicLoading);
             var url="http://"+ip+"/energenie/action/";
 			var deferred = $q.defer();
             $http({
@@ -199,8 +238,10 @@ altairApp
                 data    : {socket:socket,active:active}
             }).success(function(data) {
                 deferred.resolve(data);
+                loadingOFF($ionicLoading);
             }).error(function (data) {
                 deferred.reject(data);
+                loadingOFF($ionicLoading);
             });
             return deferred.promise;
 		}
@@ -208,12 +249,13 @@ altairApp
 	return resource;
 })
 // Servicio para el manejo de usuarios del sistema
-.factory('srvUsers', function ($http, $q) {
+.factory('srvUsers', function ($http, $q, $ionicLoading) {
 	var resource={
         /**
 		 * trae los usuarios asociados a una raspberry
 		 */
 		get: function (raspberry) {
+            loadingON($ionicLoading);
 			var deferred = $q.defer();
             $http({
                 method  : 'POST',
@@ -221,8 +263,10 @@ altairApp
                 data    : {id:raspberry}
             }).success(function(data) {
                 deferred.resolve(data);
+                loadingOFF($ionicLoading);
             }).error(function (data) {
                 deferred.reject(data);
+                loadingOFF($ionicLoading);
             });
             return deferred.promise;
 		},
@@ -230,6 +274,7 @@ altairApp
 		 * edita el usuario
 		 */
 		edit: function (user) {
+            loadingON($ionicLoading);
 			var deferred = $q.defer();
             $http({
                 method  : 'POST',
@@ -237,8 +282,10 @@ altairApp
                 data    : user
             }).success(function(data) {
                 deferred.resolve(data);
+                loadingOFF($ionicLoading);
             }).error(function (data) {
                 deferred.reject(data);
+                loadingOFF($ionicLoading);
             });
             return deferred.promise;
 		},
@@ -246,6 +293,7 @@ altairApp
 		 * añade un usuario
 		 */
 		add: function (user) {
+            loadingON($ionicLoading);
 			var deferred = $q.defer();
             $http({
                 method  : 'POST',
@@ -253,8 +301,37 @@ altairApp
                 data    : user
             }).success(function(data) {
                 deferred.resolve(data);
+                loadingOFF($ionicLoading);
             }).error(function (data) {
                 deferred.reject(data);
+                loadingOFF($ionicLoading);
+            });
+            return deferred.promise;
+		},
+        /**
+		 * añade foto a un usuario
+		 */
+		setPhoto: function (form_data) {
+            loadingON($ionicLoading);
+			var deferred = $q.defer();
+            $.ajax({
+                url: PATHS.setPhoto,
+                cache: false,
+                headers: {
+                    'Authorization': localStorage.token
+                },
+                contentType: false,
+                processData: false,
+                data: form_data,
+                type: "POST",
+                success: function (data) {
+                    deferred.resolve(data);
+                    loadingOFF($ionicLoading);
+                },
+                always: function (data) {
+                    deferred.reject(data);
+                    loadingOFF($ionicLoading);
+                }
             });
             return deferred.promise;
 		}

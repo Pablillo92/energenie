@@ -26,6 +26,10 @@
     "test",
     "tests"
   ],
+  "devDependencies": {
+    "ionic": "driftyco/ionic-bower#1.2.4",
+    "ngCordova": "~0.1.20-alpha"
+  },
   "dependencies": {
     "angular": "angularjs#~1.4.6",
     "angular-animate": "~1.4.8",
@@ -93,7 +97,9 @@
     "tinymce": "~4.3.1",
     "angular-cookies": "1.4.*",
     "maplace-js": "~0.2.5",
-    "Waves": "waves#~0.7.4"
+    "Waves": "waves#~0.7.4",
+    "ionic-material": "~0.4.2",
+    "ionic-toast": "~0.2.0"
   },
   "resolutions": {
     "jquery": ">=2.1.4",

@@ -20,7 +20,6 @@ angular
 
             if(user.status=='ok'){
                 $scope.user_data = user.user;
-                $scope.user_data.avatar="assets/img/avatars/user.png";
             }else if(user.status=='fail'){
                 notify({
                     msg: user.msg
